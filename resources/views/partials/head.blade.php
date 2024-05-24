@@ -12,4 +12,5 @@
   <link rel="stylesheet" type="text/css" href="{{ url('plugins/slick-1.8.0/slick.css') }}">
   <link rel="stylesheet" type="text/css" href="{{ url('styles/main_styles.css') }}">
   <link rel="stylesheet" type="text/css" href="{{ url('styles/responsive.css') }}">
+  @yield('css')
 </head>

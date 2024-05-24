@@ -18,6 +18,8 @@ class Producto extends Model
 
     protected $primaryKey = "id_producto";
 
+    protected $keyType = "string";
+
     public function categoria(){
         return $this->belongsTo(Categoria::class, 'categoria_id', 'id_categoria');
     }

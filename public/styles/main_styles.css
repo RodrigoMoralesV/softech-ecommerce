@@ -1698,6 +1698,16 @@ select option
 	color: rgba(0,0,0,0.6);
 	margin-left: 10px;
 }
+.product_name_preview
+{
+    font-size: 32px;
+	margin-top: 4px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #000;
+    display: inline-block;
+    width: 70%;
+}
 .product_name
 {
 	margin-top: 4px;

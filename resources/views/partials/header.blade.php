@@ -9,7 +9,7 @@
         <!-- Logo -->
         <div class="col-lg-2 col-sm-3 col-3 order-1">
           <div class="logo_container">
-            <div class="logo"><a href="#">OneTech</a></div>
+            <div class="logo"><a href="#">Softech</a></div>
           </div>
         </div>
 
@@ -42,7 +42,7 @@
                   {{-- /Esto esta oculto porque por algun motivo si se borra o comenta daña el resto de la estructura  --}}
 
                   <button type="submit" class="header_search_button trans_300" value="Submit"><img
-                      src="images/search.png" alt=""></button>
+                      src="{{ url('images/search.png') }}" alt=""></button>
                 </form>
               </div>
             </div>
@@ -55,7 +55,7 @@
             <div class="cart mr-5">
               <div class="cart_container d-flex flex-row align-items-center justify-content-end">
                 <div class="cart_icon">
-                  <img src="images/cart.png" alt="">
+                  <img src="{{ url('images/cart.png') }}" alt="">
                   <div class="cart_count"><span>10</span></div>
                 </div>
                 <div class="cart_content">
@@ -67,7 +67,7 @@
 
             <!-- Profile -->
             <div class="wishlist d-flex flex-row align-items-center justify-content-end">
-              <div class="user_icon"><img src="images/user.svg" alt=""></div>
+              <div class="user_icon"><img src="{{ url('images/user.svg') }}" alt=""></div>
               <div class="wishlist_content">
                 <div class="wishlist_text"><a href="#">Profile</a></div>
                 <div class="wishlist_count">115</div>
