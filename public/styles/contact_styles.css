@@ -1362,7 +1362,7 @@ select option {
 
 .input_field:focus,
 .text_field:focus {
-    border-color: #b2b2b2;
+    border-color: #0e8ce4;
 }
 
 .input_field:hover,

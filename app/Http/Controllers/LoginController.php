@@ -2,38 +2,45 @@
 
 namespace App\Http\Controllers;
 
+use Auth;
+use Hash;
+use App\Models\User;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
 
 class LoginController extends Controller
 {
-    // Muestra el formulario de inicio de sesión
-    public function showLoginForm()
-    {
-        return view('login.login');
+    // Retornar vista del login
+    public function login(){
+      return view('login.login');
     }
 
-    // Maneja la autenticación de usuarios
-    public function check(Request $request)
-    {
-        $credentials = $request->only('correo_cliente', 'password');
+    // Gestiona el login
+    public function check(Request $request){
+      $datos = $request->except('_token');
+      
+      dd(Auth::attempt($datos) 
+      );
 
-        if (Auth::attempt(['correo_cliente' => $credentials['correo_cliente'], 'password' => $credentials['password']])) {
-            $request->session()->regenerate();
-            return redirect()->intended('/'); // Redirige a la página principal si la autenticación es exitosa
-        }
+      if(Auth::attempt($datos)
+      ) {
+        $datos->session()->regenerate();
 
-        return back()->withErrors([
-            'correo_cliente' => 'Los datos son incorrectos, por favor vuelva a intentarlo.',
-        ])->onlyInput('correo_cliente');
+        return redirect()->intended('index');
+      }
+
+      return back()->withErrors([
+        'email' => 'Error del correo',
+        'password' => 'Error de la clave'
+      ]);
     }
 
-    // Maneja el cierre de sesión
-    public function logout(Request $request)
-    {
-        Auth::logout();
-        $request->session()->invalidate();
-        $request->session()->regenerateToken();
-        return redirect('/login');
-    }
+    // public function username()
+    // {
+    //   return 'correo_cliente';
+    // }
+
+    // public function getAuthPasswordName()
+    // {
+    //   return $this->clave_cliente;
+    // }
 }

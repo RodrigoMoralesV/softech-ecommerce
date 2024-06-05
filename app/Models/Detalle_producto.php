@@ -17,6 +17,8 @@ class Detalle_producto extends Model
         'producto_id'
     ];
 
+    protected $keyType = "string";
+
     public function producto(){
         return $this->belongsTo(Producto::class, 'producto_id', 'id_producto');
     }
