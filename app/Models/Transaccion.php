@@ -15,6 +15,8 @@ class Transaccion extends Model
 
     protected $primaryKey = "codigo_transaccion";
 
+    protected $keyType = "string";
+
     public function documento(){
         return $this->hasMany(Documento::class, 'codigo_transaccion', 'codigo_transaccion');
     }

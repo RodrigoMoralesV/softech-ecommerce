@@ -23,6 +23,8 @@ class Documento extends Model
         "numero_documento"
     ];
 
+    protected $keyType = "string";
+
     public function cliente(){
         return $this->belongsTo(Cliente::class, 'cliente_id', 'id_cliente');
     }

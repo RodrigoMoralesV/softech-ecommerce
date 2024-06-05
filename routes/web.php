@@ -2,7 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\IndexController;
+use App\Http\Controllers\LoginController;
 use App\Http\Controllers\ProductoController;
+use App\Http\Controllers\RegistroController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,3 +20,11 @@ use App\Http\Controllers\ProductoController;
 Route::resource('index', IndexController::class);
 
 Route::resource('producto', ProductoController::class);
+
+Route::get('/login', [LoginController::class, 'login']);
+
+Route::post('/check', [LoginController::class, 'check']);
+
+Route::get('/register', [RegistroController::class, 'registerForm']);
+
+Route::post('/store', [RegistroController::class, 'store']);
