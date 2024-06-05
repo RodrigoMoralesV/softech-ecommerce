@@ -16,17 +16,7 @@ class User extends Authenticatable
     protected $table = 'cliente';
 
     protected $primaryKey = 'id_cliente';
-
-    // public function username()
-    // {
-    //     return 'email';
-    // }
-
-    // public function getAuthPasswordName()
-    // {
-    //     return $this->clave_cliente;
-    // }
-
+    
     /**
      * The attributes that are mass assignable.
      *
