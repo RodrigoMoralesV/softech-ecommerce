@@ -30,7 +30,7 @@ Route::get('/registro', [RegistroController::class, 'registerForm']);
 Route::post('/store', [RegistroController::class, 'store']);
 
 Route::get('/carrito', function() {
-  return view("cart");
+  return view("cart.cart");
 });
 
 Route::get('/shop', function() {
