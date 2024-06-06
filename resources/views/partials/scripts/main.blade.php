@@ -10,3 +10,4 @@
 <script src="{{ url('plugins/slick-1.8.0/slick.js') }}"></script>
 <script src="{{ url('plugins/easing/easing.js') }}"></script>
 <script src="{{ url('js/custom.js') }}"></script>
+@yield('javascript')
