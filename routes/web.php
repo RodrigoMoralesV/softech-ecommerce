@@ -25,6 +25,14 @@ Route::get('/login', [LoginController::class, 'login']);
 
 Route::post('/check', [LoginController::class, 'check']);
 
-Route::get('/register', [RegistroController::class, 'registerForm']);
+Route::get('/registro', [RegistroController::class, 'registerForm']);
 
 Route::post('/store', [RegistroController::class, 'store']);
+
+Route::get('/carrito', function() {
+  return view("cart");
+});
+
+Route::get('/shop', function() {
+  return view("shop");
+});

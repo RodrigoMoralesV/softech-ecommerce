@@ -9,7 +9,7 @@
         <!-- Logo -->
         <div class="col-lg-2 col-sm-3 col-3 order-1">
           <div class="logo_container">
-            <div class="logo"><a href="#">Softech</a></div>
+            <div class="logo"><a href="{{ url('index') }}">Softech</a></div>
           </div>
         </div>
 
@@ -22,7 +22,7 @@
                   <input type="search" required="required" class="header_search_input"
                     placeholder="Search for products...">
 
-                  {{-- Esto esta oculto porque por algun motivo si se borra o comenta daña el resto de la estructura  --}}
+                  <!-- {{-- Esto esta oculto porque por algun motivo si se borra o comenta daña el resto de la estructura  --}} -->
 
                   <div class="custom_dropdown" hidden>
                     <div class="custom_dropdown_list">
@@ -39,7 +39,7 @@
                     </div>
                   </div>
 
-                  {{-- /Esto esta oculto porque por algun motivo si se borra o comenta daña el resto de la estructura  --}}
+                  <!-- {{-- /Esto esta oculto porque por algun motivo si se borra o comenta daña el resto de la estructura  --}} -->
 
                   <button type="submit" class="header_search_button trans_300" value="Submit"><img
                       src="{{ url('images/search.png') }}" alt=""></button>

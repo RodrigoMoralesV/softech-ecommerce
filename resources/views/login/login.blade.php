@@ -3,8 +3,8 @@
 @section('title', 'Iniciar sesión')
 
 @section('css')
-    <link rel="stylesheet" type="text/css" href="{{ url('styles/product_styles.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ url('styles/product_responsive.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url('styles/contact_styles.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url('styles/contact_responsive.css') }}">
 @endsection
 
 @section('content')
