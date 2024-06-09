@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Http\Traits\FormatsPrice;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Producto;
@@ -12,6 +12,7 @@ class ProductoController extends Controller
     {
         $producto = Producto::find($id_producto);
 
-        return view('product.product',compact('producto'));
+        return view('product.product',compact('producto'))
+        ->with('formatPrice', [FormatsPrice::class, 'formatPrice']);
     }
 }

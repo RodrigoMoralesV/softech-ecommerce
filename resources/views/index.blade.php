@@ -187,7 +187,7 @@
                             src="images/featured_1.png" alt=""></div>
                         <div class="product_content">
                           {{-- <div class="product_price discount">$225<span>$300</span></div> --}}
-                          <div class="product_price">{{ $producto->valor_unitario }}</div>
+                          <div class="product_price">{{ $formatPrice($producto->valor_unitario) }}</div>
                           <div class="product_name">
                             <a
                               href="{{ route('producto.show', $producto->id_producto) }}">{{ $producto->descripcion_producto }}</a>
