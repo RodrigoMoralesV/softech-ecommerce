@@ -20,16 +20,16 @@
               <div class="header_search_form_container">
                 <form action="#" class="header_search_form clearfix">
                   <input type="search" required="required" class="header_search_input"
-                    placeholder="Search for products...">
+                    placeholder="Buscar producto...">
 
                   <!-- {{-- Esto esta oculto porque por algun motivo si se borra o comenta daña el resto de la estructura  --}} -->
 
                   <div class="custom_dropdown" hidden>
                     <div class="custom_dropdown_list">
-                      <span class="custom_dropdown_placeholder clc">All Categories</span>
+                      <span class="custom_dropdown_placeholder clc">Todas las categorías</span>
                       <i class="fas fa-chevron-down"></i>
                       <ul class="custom_list clc">
-                        <li><a class="clc" href="#">All Categories</a></li>
+                        <li><a class="clc" href="#">Todas las categorías</a></li>
                         <li><a class="clc" href="#">Computers</a></li>
                         <li><a class="clc" href="#">Laptops</a></li>
                         <li><a class="clc" href="#">Cameras</a></li>
@@ -59,7 +59,7 @@
                   <div class="cart_count"><span>10</span></div>
                 </div>
                 <div class="cart_content">
-                  <div class="cart_text"><a href="#">Cart</a></div>
+                  <div class="cart_text"><a href="#">Carrito</a></div>
                   <div class="cart_price">$85</div>
                 </div>
               </div>
@@ -69,7 +69,7 @@
             <div class="wishlist d-flex flex-row align-items-center justify-content-end">
               <div class="user_icon"><img src="{{ url('images/user.svg') }}" alt=""></div>
               <div class="wishlist_content">
-                <div class="wishlist_text"><a href="#">Profile</a></div>
+                <div class="wishlist_text"><a href="#">Perfil</a></div>
                 <div class="wishlist_count">115</div>
               </div>
             </div>
@@ -91,21 +91,21 @@
             <div class="page_menu_search">
               <form action="#">
                 <input type="search" required="required" class="page_menu_search_input"
-                  placeholder="Search for products...">
+                  placeholder="Buscar producto...">
               </form>
             </div>
             <ul class="page_menu_nav">
               <li class="page_menu_item has-children">
-                <a href="#">Language<i class="fa fa-angle-down"></i></a>
+                <a href="#">Lenguaje<i class="fa fa-angle-down"></i></a>
                 <ul class="page_menu_selection">
-                  <li><a href="#">English<i class="fa fa-angle-down"></i></a></li>
-                  <li><a href="#">Italian<i class="fa fa-angle-down"></i></a></li>
-                  <li><a href="#">Spanish<i class="fa fa-angle-down"></i></a></li>
-                  <li><a href="#">Japanese<i class="fa fa-angle-down"></i></a></li>
+                  <li><a href="#">Inglés<i class="fa fa-angle-down"></i></a></li>
+                  <li><a href="#">Italiano<i class="fa fa-angle-down"></i></a></li>
+                  <li><a href="#">Español<i class="fa fa-angle-down"></i></a></li>
+                  <li><a href="#">Japonés<i class="fa fa-angle-down"></i></a></li>
                 </ul>
               </li>
               <li class="page_menu_item has-children">
-                <a href="#">Currency<i class="fa fa-angle-down"></i></a>
+                <a href="#">Divisa<i class="fa fa-angle-down"></i></a>
                 <ul class="page_menu_selection">
                   <li><a href="#">US Dollar<i class="fa fa-angle-down"></i></a></li>
                   <li><a href="#">EUR Euro<i class="fa fa-angle-down"></i></a></li>
@@ -117,9 +117,9 @@
                 <a href="index.html">Home<i class="fa fa-angle-down"></i></a>
               </li>
               <li class="page_menu_item has-children">
-                <a href="#">Super Deals<i class="fa fa-angle-down"></i></a>
+                <a href="#">Super ofertas<i class="fa fa-angle-down"></i></a>
                 <ul class="page_menu_selection">
-                  <li><a href="#">Super Deals<i class="fa fa-angle-down"></i></a></li>
+                  <li><a href="#">Super ofertas<i class="fa fa-angle-down"></i></a></li>
                   <li class="page_menu_item has-children">
                     <a href="#">Menu Item<i class="fa fa-angle-down"></i></a>
                     <ul class="page_menu_selection">
@@ -135,18 +135,18 @@
                 </ul>
               </li>
               <li class="page_menu_item has-children">
-                <a href="#">Featured Brands<i class="fa fa-angle-down"></i></a>
+                <a href="#">Marcas destacadas<i class="fa fa-angle-down"></i></a>
                 <ul class="page_menu_selection">
-                  <li><a href="#">Featured Brands<i class="fa fa-angle-down"></i></a></li>
+                  <li><a href="#">Marcas destacadas<i class="fa fa-angle-down"></i></a></li>
                   <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
                   <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
                   <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
                 </ul>
               </li>
               <li class="page_menu_item has-children">
-                <a href="#">Trending Styles<i class="fa fa-angle-down"></i></a>
+                <a href="#">Estilos de tendencia<i class="fa fa-angle-down"></i></a>
                 <ul class="page_menu_selection">
-                  <li><a href="#">Trending Styles<i class="fa fa-angle-down"></i></a></li>
+                  <li><a href="#">Estilos de tendencia<i class="fa fa-angle-down"></i></a></li>
                   <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
                   <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
                   <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
@@ -154,7 +154,7 @@
               </li>
               <li class="page_menu_item"><a href="blog.html">blog<i class="fa fa-angle-down"></i></a>
               </li>
-              <li class="page_menu_item"><a href="contact.html">contact<i class="fa fa-angle-down"></i></a></li>
+              <li class="page_menu_item"><a href="contact.html">contacto<i class="fa fa-angle-down"></i></a></li>
             </ul>
 
             <div class="menu_contact">

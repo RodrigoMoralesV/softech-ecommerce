@@ -14,7 +14,7 @@
           <!-- Deals -->
 
           <div class="deals">
-            <div class="deals_title">Deals of the Week</div>
+            <div class="deals_title">Ofertas de la semana</div>
             <div class="deals_slider_container">
 
               <!-- Deals Slider -->
@@ -25,7 +25,7 @@
                   <div class="deals_image"><img src="images/deals.png" alt=""></div>
                   <div class="deals_content">
                     <div class="deals_info_line d-flex flex-row justify-content-start">
-                      <div class="deals_item_category"><a href="#">Headphones</a></div>
+                      <div class="deals_item_category"><a href="#">Audífonos</a></div>
                       <div class="deals_item_price_a ml-auto">$300</div>
                     </div>
                     <div class="deals_info_line d-flex flex-row justify-content-start">
@@ -34,29 +34,29 @@
                     </div>
                     <div class="available">
                       <div class="available_line d-flex flex-row justify-content-start">
-                        <div class="available_title">Available: <span>6</span></div>
-                        <div class="sold_title ml-auto">Already sold: <span>28</span></div>
+                        <div class="available_title">Disponible: <span>6</span></div>
+                        <div class="sold_title ml-auto">Vendido: <span>28</span></div>
                       </div>
                       <div class="available_bar"><span style="width:17%"></span></div>
                     </div>
                     <div class="deals_timer d-flex flex-row align-items-center justify-content-start">
                       <div class="deals_timer_title_container">
-                        <div class="deals_timer_title">Hurry Up</div>
-                        <div class="deals_timer_subtitle">Offer ends in:</div>
+                        <div class="deals_timer_title">¡Apresúrate!</div>
+                        <div class="deals_timer_subtitle">La oferta termina en:</div>
                       </div>
                       <div class="deals_timer_content ml-auto">
                         <div class="deals_timer_box clearfix" data-target-time="">
                           <div class="deals_timer_unit">
                             <div id="deals_timer1_hr" class="deals_timer_hr"></div>
-                            <span>hours</span>
+                            <span>Horas</span>
                           </div>
                           <div class="deals_timer_unit">
                             <div id="deals_timer1_min" class="deals_timer_min"></div>
-                            <span>mins</span>
+                            <span>Minutos</span>
                           </div>
                           <div class="deals_timer_unit">
                             <div id="deals_timer1_sec" class="deals_timer_sec"></div>
-                            <span>secs</span>
+                            <span>Segundos</span>
                           </div>
                         </div>
                       </div>
@@ -69,7 +69,7 @@
                   <div class="deals_image"><img src="images/deals.png" alt=""></div>
                   <div class="deals_content">
                     <div class="deals_info_line d-flex flex-row justify-content-start">
-                      <div class="deals_item_category"><a href="#">Headphones</a></div>
+                      <div class="deals_item_category"><a href="#">Audífonos</a></div>
                       <div class="deals_item_price_a ml-auto">$300</div>
                     </div>
                     <div class="deals_info_line d-flex flex-row justify-content-start">
@@ -78,29 +78,29 @@
                     </div>
                     <div class="available">
                       <div class="available_line d-flex flex-row justify-content-start">
-                        <div class="available_title">Available: <span>6</span></div>
-                        <div class="sold_title ml-auto">Already sold: <span>28</span></div>
+                        <div class="available_title">Disponible: <span>6</span></div>
+                        <div class="sold_title ml-auto">Vendido: <span>28</span></div>
                       </div>
                       <div class="available_bar"><span style="width:17%"></span></div>
                     </div>
                     <div class="deals_timer d-flex flex-row align-items-center justify-content-start">
                       <div class="deals_timer_title_container">
-                        <div class="deals_timer_title">Hurry Up</div>
-                        <div class="deals_timer_subtitle">Offer ends in:</div>
+                        <div class="deals_timer_title">¡Apresúrate!</div>
+                        <div class="deals_timer_subtitle">La oferta termina en:</div>
                       </div>
                       <div class="deals_timer_content ml-auto">
                         <div class="deals_timer_box clearfix" data-target-time="">
                           <div class="deals_timer_unit">
                             <div id="deals_timer2_hr" class="deals_timer_hr"></div>
-                            <span>hours</span>
+                            <span>Horas</span>
                           </div>
                           <div class="deals_timer_unit">
                             <div id="deals_timer2_min" class="deals_timer_min"></div>
-                            <span>mins</span>
+                            <span>Minutos</span>
                           </div>
                           <div class="deals_timer_unit">
                             <div id="deals_timer2_sec" class="deals_timer_sec"></div>
-                            <span>secs</span>
+                            <span>Segundos</span>
                           </div>
                         </div>
                       </div>
@@ -113,7 +113,7 @@
                   <div class="deals_image"><img src="images/deals.png" alt=""></div>
                   <div class="deals_content">
                     <div class="deals_info_line d-flex flex-row justify-content-start">
-                      <div class="deals_item_category"><a href="#">Headphones</a></div>
+                      <div class="deals_item_category"><a href="#">Audífonos</a></div>
                       <div class="deals_item_price_a ml-auto">$300</div>
                     </div>
                     <div class="deals_info_line d-flex flex-row justify-content-start">
@@ -122,29 +122,29 @@
                     </div>
                     <div class="available">
                       <div class="available_line d-flex flex-row justify-content-start">
-                        <div class="available_title">Available: <span>6</span></div>
-                        <div class="sold_title ml-auto">Already sold: <span>28</span></div>
+                        <div class="available_title">Disponible: <span>6</span></div>
+                        <div class="sold_title ml-auto">Vendido: <span>28</span></div>
                       </div>
                       <div class="available_bar"><span style="width:17%"></span></div>
                     </div>
                     <div class="deals_timer d-flex flex-row align-items-center justify-content-start">
                       <div class="deals_timer_title_container">
-                        <div class="deals_timer_title">Hurry Up</div>
-                        <div class="deals_timer_subtitle">Offer ends in:</div>
+                        <div class="deals_timer_title">¡Apresúrate!</div>
+                        <div class="deals_timer_subtitle">La oferta termina en:</div>
                       </div>
                       <div class="deals_timer_content ml-auto">
                         <div class="deals_timer_box clearfix" data-target-time="">
                           <div class="deals_timer_unit">
                             <div id="deals_timer3_hr" class="deals_timer_hr"></div>
-                            <span>hours</span>
+                            <span>Horas</span>
                           </div>
                           <div class="deals_timer_unit">
                             <div id="deals_timer3_min" class="deals_timer_min"></div>
-                            <span>mins</span>
+                            <span>Minutos</span>
                           </div>
                           <div class="deals_timer_unit">
                             <div id="deals_timer3_sec" class="deals_timer_sec"></div>
-                            <span>secs</span>
+                            <span>Segundos</span>
                           </div>
                         </div>
                       </div>
@@ -167,9 +167,9 @@
             <div class="tabbed_container">
               <div class="tabs">
                 <ul class="clearfix">
-                  <li class="active">Featured</li>
-                  <li>On Sale</li>
-                  <li>Best Rated</li>
+                  <li class="active">Destacado</li>
+                  <li>En venta</li>
+                  <li>Mejor calificado</li>
                 </ul>
                 <div class="tabs_line"><span></span></div>
               </div>
@@ -194,12 +194,12 @@
                           </div>
                           <div class="product_category">{{ $producto->categoria->nombre_categoria }}</div>
                           <div class="product_extras">
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount">-25%</li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -232,13 +232,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount">-25%</li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -261,13 +261,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button active">Add to Cart</button>
+                          <button class="product_cart_button active">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount"></li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -289,13 +289,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount"></li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -318,13 +318,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount">-25%</li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -346,13 +346,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount"></li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -374,13 +374,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount"></li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -403,13 +403,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount">-25%</li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -431,13 +431,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount"></li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -459,13 +459,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount"></li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -487,13 +487,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount"></li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -515,13 +515,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount"></li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -543,13 +543,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount"></li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -571,13 +571,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount"></li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -599,13 +599,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount"></li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -627,13 +627,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount"></li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -655,13 +655,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount"></li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -693,13 +693,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount">-25%</li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -722,13 +722,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button active">Add to Cart</button>
+                          <button class="product_cart_button active">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount"></li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -750,13 +750,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount"></li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -779,13 +779,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount">-25%</li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -807,13 +807,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount"></li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -835,13 +835,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount"></li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -864,13 +864,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount">-25%</li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -892,13 +892,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount"></li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -920,13 +920,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount"></li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -948,13 +948,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount"></li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -976,13 +976,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount"></li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -1004,13 +1004,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount"></li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -1032,13 +1032,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount"></li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -1060,13 +1060,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount"></li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -1088,13 +1088,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount"></li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -1116,13 +1116,13 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Añadir al carrito</button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
                       <ul class="product_marks">
                         <li class="product_mark product_discount"></li>
-                        <li class="product_mark product_new">new</li>
+                        <li class="product_mark product_new">Nuevo</li>
                       </ul>
                     </div>
                   </div>
@@ -1146,14 +1146,14 @@
       <div class="row">
         <div class="col-lg-3">
           <div class="popular_categories_content">
-            <div class="popular_categories_title">Popular Categories</div>
+            <div class="popular_categories_title">Categorías populares</div>
             <div class="popular_categories_slider_nav">
               <div class="popular_categories_prev popular_categories_nav"><i class="fas fa-angle-left ml-auto"></i>
               </div>
               <div class="popular_categories_next popular_categories_nav"><i class="fas fa-angle-right ml-auto"></i>
               </div>
             </div>
-            <div class="popular_categories_link"><a href="#">full catalog</a></div>
+            <div class="popular_categories_link"><a href="#">Catálogo completo</a></div>
           </div>
         </div>
 
@@ -1202,7 +1202,7 @@
                     <div class="banner_2_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
                       fermentum laoreet.</div>
                     <div class="rating_r rating_r_4 banner_2_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                    <div class="button banner_2_button"><a href="#">Explore</a></div>
+                    <div class="button banner_2_button"><a href="#">Explorar</a></div>
                   </div>
 
                 </div>
@@ -1228,7 +1228,7 @@
                     <div class="banner_2_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
                       fermentum laoreet.</div>
                     <div class="rating_r rating_r_4 banner_2_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                    <div class="button banner_2_button"><a href="#">Explore</a></div>
+                    <div class="button banner_2_button"><a href="#">Explorar</a></div>
                   </div>
 
                 </div>
@@ -1254,7 +1254,7 @@
                     <div class="banner_2_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
                       fermentum laoreet.</div>
                     <div class="rating_r rating_r_4 banner_2_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                    <div class="button banner_2_button"><a href="#">Explore</a></div>
+                    <div class="button banner_2_button"><a href="#">Explorar</a></div>
                   </div>
 
                 </div>
@@ -1280,11 +1280,11 @@
         <div class="col">
           <div class="tabbed_container">
             <div class="tabs clearfix tabs-right">
-              <div class="new_arrivals_title">Hot New Arrivals</div>
+              <div class="new_arrivals_title">Recién llegados</div>
               <ul class="clearfix">
-                <li class="active">Featured</li>
+                <li class="active">Destacado</li>
                 <li>Audio & Video</li>
-                <li>Laptops & Computers</li>
+                <li>Laptops & Computadoras</li>
               </ul>
               <div class="tabs_line"><span></span></div>
             </div>
@@ -1313,13 +1313,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount">-25%</li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -1342,13 +1342,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button active">Add to Cart</button>
+                            <button class="product_cart_button active">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -1371,13 +1371,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -1400,13 +1400,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -1429,13 +1429,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -1458,13 +1458,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -1487,13 +1487,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount">-25%</li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -1516,13 +1516,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -1545,13 +1545,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -1574,13 +1574,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -1603,13 +1603,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -1632,13 +1632,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -1661,13 +1661,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -1690,13 +1690,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -1719,13 +1719,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -1748,13 +1748,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -1784,13 +1784,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount">-25%</li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -1813,13 +1813,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button active">Add to Cart</button>
+                            <button class="product_cart_button active">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -1842,13 +1842,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -1871,13 +1871,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -1900,13 +1900,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -1929,13 +1929,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -1958,13 +1958,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount">-25%</li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -1987,13 +1987,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -2016,13 +2016,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -2045,13 +2045,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -2074,13 +2074,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -2103,13 +2103,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -2132,13 +2132,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -2161,13 +2161,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -2190,13 +2190,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -2219,13 +2219,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -2255,13 +2255,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount">-25%</li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -2284,13 +2284,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button active">Add to Cart</button>
+                            <button class="product_cart_button active">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -2313,13 +2313,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -2342,13 +2342,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -2371,13 +2371,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -2400,13 +2400,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -2429,13 +2429,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount">-25%</li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -2458,13 +2458,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -2487,13 +2487,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -2516,13 +2516,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -2545,13 +2545,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -2574,13 +2574,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -2603,13 +2603,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -2632,13 +2632,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -2661,13 +2661,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -2690,13 +2690,13 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Añadir al carrito</button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
                         <ul class="product_marks">
                           <li class="product_mark product_discount"></li>
-                          <li class="product_mark product_new">new</li>
+                          <li class="product_mark product_new">Nuevo</li>
                         </ul>
                       </div>
                     </div>
@@ -2718,11 +2718,11 @@
                       </div>
                       <div class="rating_r rating_r_4 arrivals_single_rating"><i></i><i></i><i></i><i></i><i></i>
                       </div>
-                      <form action="#"><button class="arrivals_single_button">Add to Cart</button></form>
+                      <form action="#"><button class="arrivals_single_button">Añadir al carrito</button></form>
                     </div>
                     <div class="arrivals_single_fav product_fav active"><i class="fas fa-heart"></i></div>
                     <ul class="arrivals_single_marks product_marks">
-                      <li class="arrivals_single_mark product_mark product_new">new</li>
+                      <li class="arrivals_single_mark product_mark product_new">Nuevo</li>
                     </ul>
                   </div>
                 </div>
@@ -2744,11 +2744,11 @@
         <div class="col">
           <div class="tabbed_container">
             <div class="tabs clearfix tabs-right">
-              <div class="new_arrivals_title">Hot Best Sellers</div>
+              <div class="new_arrivals_title">Recién llegados</div>
               <ul class="clearfix">
                 <li class="active">Top 20</li>
                 <li>Audio & Video</li>
-                <li>Laptops & Computers</li>
+                <li>Laptops & Computadoras</li>
               </ul>
               <div class="tabs_line"><span></span></div>
             </div>
@@ -2764,7 +2764,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_1.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -2773,7 +2773,7 @@
                   <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -2782,7 +2782,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_2.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Samsung J730F...</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -2791,7 +2791,7 @@
                   <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -2800,7 +2800,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_3.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Nomi Black White</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -2809,7 +2809,7 @@
                   <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -2818,7 +2818,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_4.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Samsung Charm Gold</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -2827,7 +2827,7 @@
                   <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -2836,7 +2836,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_5.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Beoplay H7</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -2845,7 +2845,7 @@
                   <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -2854,7 +2854,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_6.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Huawei MediaPad T3</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -2863,7 +2863,7 @@
                   <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -2872,7 +2872,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_1.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -2881,7 +2881,7 @@
                   <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -2890,7 +2890,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_2.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -2899,7 +2899,7 @@
                   <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -2908,7 +2908,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_3.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -2917,7 +2917,7 @@
                   <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -2926,7 +2926,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_4.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -2935,7 +2935,7 @@
                   <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -2944,7 +2944,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_5.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -2953,7 +2953,7 @@
                   <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -2962,7 +2962,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_6.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -2971,7 +2971,7 @@
                   <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -2989,7 +2989,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_1.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -2998,7 +2998,7 @@
                   <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -3007,7 +3007,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_2.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -3016,7 +3016,7 @@
                   <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -3025,7 +3025,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_3.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -3034,7 +3034,7 @@
                   <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -3043,7 +3043,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_4.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -3052,7 +3052,7 @@
                   <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -3061,7 +3061,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_5.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -3070,7 +3070,7 @@
                   <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -3079,7 +3079,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_6.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -3088,7 +3088,7 @@
                   <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -3097,7 +3097,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_1.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -3106,7 +3106,7 @@
                   <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -3115,7 +3115,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_2.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -3124,7 +3124,7 @@
                   <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -3133,7 +3133,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_3.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -3142,7 +3142,7 @@
                   <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -3151,7 +3151,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_4.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -3160,7 +3160,7 @@
                   <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -3169,7 +3169,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_5.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -3178,7 +3178,7 @@
                   <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -3187,7 +3187,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_6.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -3196,7 +3196,7 @@
                   <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -3214,7 +3214,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_1.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -3223,7 +3223,7 @@
                   <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -3232,7 +3232,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_2.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -3241,7 +3241,7 @@
                   <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -3250,7 +3250,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_3.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -3259,7 +3259,7 @@
                   <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -3268,7 +3268,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_4.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -3277,7 +3277,7 @@
                   <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -3286,7 +3286,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_5.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -3295,7 +3295,7 @@
                   <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -3304,7 +3304,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_6.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -3313,7 +3313,7 @@
                   <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -3322,7 +3322,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_1.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -3331,7 +3331,7 @@
                   <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -3340,7 +3340,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_2.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -3349,7 +3349,7 @@
                   <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -3358,7 +3358,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_3.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -3367,7 +3367,7 @@
                   <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -3376,7 +3376,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_4.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -3385,7 +3385,7 @@
                   <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -3394,7 +3394,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_5.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -3403,7 +3403,7 @@
                   <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -3412,7 +3412,7 @@
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_6.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Headphones</a></div>
+                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
                       <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
                       <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                       <div class="bestsellers_price discount">$225<span>$300</span></div>
@@ -3421,7 +3421,7 @@
                   <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
                   <ul class="bestsellers_marks">
                     <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">new</li>
+                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
                   </ul>
                 </div>
 
@@ -3446,7 +3446,7 @@
 
           <div class="advert d-flex flex-row align-items-center justify-content-start">
             <div class="advert_content">
-              <div class="advert_title"><a href="#">Trends 2018</a></div>
+              <div class="advert_title"><a href="#">Tendencias 2018</a></div>
               <div class="advert_text">Lorem ipsum dolor sit amet, consectetur adipiscing Donec et.</div>
             </div>
             <div class="ml-auto">
@@ -3461,7 +3461,7 @@
 
           <div class="advert d-flex flex-row align-items-center justify-content-start">
             <div class="advert_content">
-              <div class="advert_subtitle">Trends 2018</div>
+              <div class="advert_subtitle">Tendencias 2018</div>
               <div class="advert_title_2"><a href="#">Sale -45%</a></div>
               <div class="advert_text">Lorem ipsum dolor sit amet, consectetur.</div>
             </div>
@@ -3477,7 +3477,7 @@
 
           <div class="advert d-flex flex-row align-items-center justify-content-start">
             <div class="advert_content">
-              <div class="advert_title"><a href="#">Trends 2018</a></div>
+              <div class="advert_title"><a href="#">Tendencias 2018</a></div>
               <div class="advert_text">Lorem ipsum dolor sit amet, consectetur.</div>
             </div>
             <div class="ml-auto">
@@ -3501,7 +3501,7 @@
         <!-- Trends Content -->
         <div class="col-lg-3">
           <div class="trends_container">
-            <h2 class="trends_title">Trends 2018</h2>
+            <h2 class="trends_title">Tendencias 2018</h2>
             <div class="trends_text">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing Donec et.</p>
             </div>
@@ -3534,7 +3534,7 @@
                   </div>
                   <ul class="trends_marks">
                     <li class="trends_mark trends_discount">-25%</li>
-                    <li class="trends_mark trends_new">new</li>
+                    <li class="trends_mark trends_new">Nuevo</li>
                   </ul>
                   <div class="trends_fav"><i class="fas fa-heart"></i></div>
                 </div>
@@ -3554,7 +3554,7 @@
                   </div>
                   <ul class="trends_marks">
                     <li class="trends_mark trends_discount">-25%</li>
-                    <li class="trends_mark trends_new">new</li>
+                    <li class="trends_mark trends_new">Nuevo</li>
                   </ul>
                   <div class="trends_fav"><i class="fas fa-heart"></i></div>
                 </div>
@@ -3574,7 +3574,7 @@
                   </div>
                   <ul class="trends_marks">
                     <li class="trends_mark trends_discount">-25%</li>
-                    <li class="trends_mark trends_new">new</li>
+                    <li class="trends_mark trends_new">Nuevo</li>
                   </ul>
                   <div class="trends_fav"><i class="fas fa-heart"></i></div>
                 </div>
@@ -3594,7 +3594,7 @@
                   </div>
                   <ul class="trends_marks">
                     <li class="trends_mark trends_discount">-25%</li>
-                    <li class="trends_mark trends_new">new</li>
+                    <li class="trends_mark trends_new">Nuevo</li>
                   </ul>
                   <div class="trends_fav"><i class="fas fa-heart"></i></div>
                 </div>
@@ -3614,7 +3614,7 @@
                   </div>
                   <ul class="trends_marks">
                     <li class="trends_mark trends_discount">-25%</li>
-                    <li class="trends_mark trends_new">new</li>
+                    <li class="trends_mark trends_new">Nuevo</li>
                   </ul>
                   <div class="trends_fav"><i class="fas fa-heart"></i></div>
                 </div>
@@ -3634,7 +3634,7 @@
                   </div>
                   <ul class="trends_marks">
                     <li class="trends_mark trends_discount">-25%</li>
-                    <li class="trends_mark trends_new">new</li>
+                    <li class="trends_mark trends_new">Nuevo</li>
                   </ul>
                   <div class="trends_fav"><i class="fas fa-heart"></i></div>
                 </div>
@@ -3656,8 +3656,8 @@
         <div class="col">
 
           <div class="reviews_title_container">
-            <h3 class="reviews_title">Latest Reviews</h3>
-            <div class="reviews_all ml-auto"><a href="#">view all <span>reviews</span></a></div>
+            <h3 class="reviews_title">Reseñas recientes</h3>
+            <div class="reviews_all ml-auto"><a href="#">Ver todas las <span>reseñas</span></a></div>
           </div>
 
           <div class="reviews_slider_container">
@@ -3675,7 +3675,7 @@
                     <div class="review_name">Roberto Sanchez</div>
                     <div class="review_rating_container">
                       <div class="rating_r rating_r_4 review_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="review_time">2 day ago</div>
+                      <div class="review_time">Hace 2 días</div>
                     </div>
                     <div class="review_text">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum laoreet.</p>
@@ -3694,7 +3694,7 @@
                     <div class="review_name">Brandon Flowers</div>
                     <div class="review_rating_container">
                       <div class="rating_r rating_r_4 review_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="review_time">2 day ago</div>
+                      <div class="review_time">Hace 2 días</div>
                     </div>
                     <div class="review_text">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum laoreet.</p>
@@ -3713,7 +3713,7 @@
                     <div class="review_name">Emilia Clarke</div>
                     <div class="review_rating_container">
                       <div class="rating_r rating_r_4 review_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="review_time">2 day ago</div>
+                      <div class="review_time">Hace 2 días</div>
                     </div>
                     <div class="review_text">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum laoreet.</p>
@@ -3732,7 +3732,7 @@
                     <div class="review_name">Roberto Sanchez</div>
                     <div class="review_rating_container">
                       <div class="rating_r rating_r_4 review_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="review_time">2 day ago</div>
+                      <div class="review_time">Hace 2 días</div>
                     </div>
                     <div class="review_text">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum laoreet.</p>
@@ -3751,7 +3751,7 @@
                     <div class="review_name">Brandon Flowers</div>
                     <div class="review_rating_container">
                       <div class="rating_r rating_r_4 review_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="review_time">2 day ago</div>
+                      <div class="review_time">Hace 2 días</div>
                     </div>
                     <div class="review_text">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum laoreet.</p>
@@ -3770,7 +3770,7 @@
                     <div class="review_name">Emilia Clarke</div>
                     <div class="review_rating_container">
                       <div class="rating_r rating_r_4 review_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="review_time">2 day ago</div>
+                      <div class="review_time">Hace 2 días</div>
                     </div>
                     <div class="review_text">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum laoreet.</p>
@@ -3794,7 +3794,7 @@
       <div class="row">
         <div class="col">
           <div class="viewed_title_container">
-            <h3 class="viewed_title">Recently Viewed</h3>
+            <h3 class="viewed_title">Visto recién</h3>
             <div class="viewed_nav_container">
               <div class="viewed_nav viewed_prev"><i class="fas fa-chevron-left"></i></div>
               <div class="viewed_nav viewed_next"><i class="fas fa-chevron-right"></i></div>
@@ -3818,7 +3818,7 @@
                   </div>
                   <ul class="item_marks">
                     <li class="item_mark item_discount">-25%</li>
-                    <li class="item_mark item_new">new</li>
+                    <li class="item_mark item_new">Nuevo</li>
                   </ul>
                 </div>
               </div>
@@ -3833,7 +3833,7 @@
                   </div>
                   <ul class="item_marks">
                     <li class="item_mark item_discount">-25%</li>
-                    <li class="item_mark item_new">new</li>
+                    <li class="item_mark item_new">Nuevo</li>
                   </ul>
                 </div>
               </div>
@@ -3848,7 +3848,7 @@
                   </div>
                   <ul class="item_marks">
                     <li class="item_mark item_discount">-25%</li>
-                    <li class="item_mark item_new">new</li>
+                    <li class="item_mark item_new">Nuevo</li>
                   </ul>
                 </div>
               </div>
@@ -3864,7 +3864,7 @@
                   </div>
                   <ul class="item_marks">
                     <li class="item_mark item_discount">-25%</li>
-                    <li class="item_mark item_new">new</li>
+                    <li class="item_mark item_new">Nuevo</li>
                   </ul>
                 </div>
               </div>
@@ -3880,7 +3880,7 @@
                   </div>
                   <ul class="item_marks">
                     <li class="item_mark item_discount">-25%</li>
-                    <li class="item_mark item_new">new</li>
+                    <li class="item_mark item_new">Nuevo</li>
                   </ul>
                 </div>
               </div>
@@ -3895,7 +3895,7 @@
                   </div>
                   <ul class="item_marks">
                     <li class="item_mark item_discount">-25%</li>
-                    <li class="item_mark item_new">new</li>
+                    <li class="item_mark item_new">Nuevo</li>
                   </ul>
                 </div>
               </div>

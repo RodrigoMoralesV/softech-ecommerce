@@ -47,7 +47,7 @@
 
                   <!-- Product Quantity -->
                   <div class="product_quantity clearfix">
-                    <span>Quantity: </span>
+                    <span>Cantidad: </span>
                     <input id="quantity_input" type="text" pattern="[0-9]*" value="1">
                     <div class="quantity_buttons">
                       <div id="quantity_inc_button" class="quantity_inc quantity_control"><i
@@ -66,7 +66,7 @@
 
                 <div class="product_price">${{ $producto->valor_unitario }}</div>
                 <div class="button_container">
-                  <button type="button" class="button cart_button">Add to Cart</button>
+                  <button type="button" class="button cart_button">Añadir al carrito</button>
                   <div class="product_fav"><i class="fas fa-heart"></i></div>
                 </div>
 

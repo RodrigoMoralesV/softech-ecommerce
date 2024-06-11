@@ -31,25 +31,25 @@
                     <!-- Shop Sidebar -->
                     <div class="shop_sidebar">
                         <div class="sidebar_section">
-                            <div class="sidebar_title">Categories</div>
+                            <div class="sidebar_title">Categorías</div>
                             <ul class="sidebar_categories">
-                                <li><a href="#">Computers & Laptops</a></li>
-                                <li><a href="#">Cameras & Photos</a></li>
+                                <li><a href="#">Computadoras & Laptops</a></li>
+                                <li><a href="#">Camaras & Fotos</a></li>
                                 <li><a href="#">Hardware</a></li>
                                 <li><a href="#">Smartphones & Tablets</a></li>
                                 <li><a href="#">TV & Audio</a></li>
                                 <li><a href="#">Gadgets</a></li>
-                                <li><a href="#">Car Electronics</a></li>
-                                <li><a href="#">Video Games & Consoles</a></li>
-                                <li><a href="#">Accessories</a></li>
+                                <li><a href="#">Electrónicos</a></li>
+                                <li><a href="#">Video Juegos & Consolas</a></li>
+                                <li><a href="#">Accessorios</a></li>
                             </ul>
                         </div>
                         <div class="sidebar_section filter_by_section">
-                            <div class="sidebar_title">Filter By</div>
-                            <div class="sidebar_subtitle">Price</div>
+                            <div class="sidebar_title">Filtrar por</div>
+                            <div class="sidebar_subtitle">Precio</div>
                             <div class="filter_price">
                                 <div id="slider-range" class="slider_range"></div>
-                                <p>Range: </p>
+                                <p>Rango: </p>
                                 <p><input type="text" id="amount" class="amount" readonly
                                         style="border:0; font-weight:bold;"></p>
                             </div>
@@ -67,7 +67,7 @@
                             </ul>
                         </div>
                         <div class="sidebar_section">
-                            <div class="sidebar_subtitle brands_subtitle">Brands</div>
+                            <div class="sidebar_subtitle brands_subtitle">Marcas</div>
                             <ul class="brands_list">
                                 <li class="brand"><a href="#">Apple</a></li>
                                 <li class="brand"><a href="#">Beoplay</a></li>
@@ -89,18 +89,18 @@
 
                     <div class="shop_content">
                         <div class="shop_bar clearfix">
-                            <div class="shop_product_count"><span>186</span> products found</div>
+                            <div class="shop_product_count"><span>186</span> Productos encontrados</div>
                             <div class="shop_sorting">
-                                <span>Sort by:</span>
+                                <span>Filtrar por:</span>
                                 <ul>
                                     <li>
-                                        <span class="sorting_text">highest rated<i class="fas fa-chevron-down"></span></i>
+                                        <span class="sorting_text">Mejor calificado<i class="fas fa-chevron-down"></span></i>
                                         <ul>
                                             <li class="shop_sorting_button"
-                                                data-isotope-option='{ "sortBy": "original-order" }'>highest rated</li>
-                                            <li class="shop_sorting_button" data-isotope-option='{ "sortBy": "name" }'>name
+                                                data-isotope-option='{ "sortBy": "original-order" }'>Mejor calificado</li>
+                                            <li class="shop_sorting_button" data-isotope-option='{ "sortBy": "name" }'>Nombre
                                             </li>
-                                            <li class="shop_sorting_button"data-isotope-option='{ "sortBy": "price" }'>price
+                                            <li class="shop_sorting_button"data-isotope-option='{ "sortBy": "price" }'>Precio
                                             </li>
                                         </ul>
                                     </li>
@@ -125,7 +125,7 @@
                                 <div class="product_fav"><i class="fas fa-heart"></i></div>
                                 <ul class="product_marks">
                                     <li class="product_mark product_discount">-25%</li>
-                                    <li class="product_mark product_new">new</li>
+                                    <li class="product_mark product_new">Nuevo</li>
                                 </ul>
                             </div>
 
@@ -144,7 +144,7 @@
                                 <div class="product_fav"><i class="fas fa-heart"></i></div>
                                 <ul class="product_marks">
                                     <li class="product_mark product_discount">-25%</li>
-                                    <li class="product_mark product_new">new</li>
+                                    <li class="product_mark product_new">Nuevo</li>
                                 </ul>
                             </div>
 
@@ -163,7 +163,7 @@
                                 <div class="product_fav"><i class="fas fa-heart"></i></div>
                                 <ul class="product_marks">
                                     <li class="product_mark product_discount">-25%</li>
-                                    <li class="product_mark product_new">new</li>
+                                    <li class="product_mark product_new">Nuevo</li>
                                 </ul>
                             </div>
 
@@ -182,7 +182,7 @@
                                 <div class="product_fav"><i class="fas fa-heart"></i></div>
                                 <ul class="product_marks">
                                     <li class="product_mark product_discount">-25%</li>
-                                    <li class="product_mark product_new">new</li>
+                                    <li class="product_mark product_new">Nuevo</li>
                                 </ul>
                             </div>
 
@@ -201,7 +201,7 @@
                                 <div class="product_fav"><i class="fas fa-heart"></i></div>
                                 <ul class="product_marks">
                                     <li class="product_mark product_discount">-25%</li>
-                                    <li class="product_mark product_new">new</li>
+                                    <li class="product_mark product_new">Nuevo</li>
                                 </ul>
                             </div>
 
@@ -220,7 +220,7 @@
                                 <div class="product_fav"><i class="fas fa-heart"></i></div>
                                 <ul class="product_marks">
                                     <li class="product_mark product_discount">-25%</li>
-                                    <li class="product_mark product_new">new</li>
+                                    <li class="product_mark product_new">Nuevo</li>
                                 </ul>
                             </div>
 
@@ -239,7 +239,7 @@
                                 <div class="product_fav"><i class="fas fa-heart"></i></div>
                                 <ul class="product_marks">
                                     <li class="product_mark product_discount">-25%</li>
-                                    <li class="product_mark product_new">new</li>
+                                    <li class="product_mark product_new">Nuevo</li>
                                 </ul>
                             </div>
 
@@ -258,7 +258,7 @@
                                 <div class="product_fav"><i class="fas fa-heart"></i></div>
                                 <ul class="product_marks">
                                     <li class="product_mark product_discount">-25%</li>
-                                    <li class="product_mark product_new">new</li>
+                                    <li class="product_mark product_new">Nuevo</li>
                                 </ul>
                             </div>
 
@@ -277,7 +277,7 @@
                                 <div class="product_fav"><i class="fas fa-heart"></i></div>
                                 <ul class="product_marks">
                                     <li class="product_mark product_discount">-25%</li>
-                                    <li class="product_mark product_new">new</li>
+                                    <li class="product_mark product_new">Nuevo</li>
                                 </ul>
                             </div>
 
@@ -296,7 +296,7 @@
                                 <div class="product_fav"><i class="fas fa-heart"></i></div>
                                 <ul class="product_marks">
                                     <li class="product_mark product_discount">-25%</li>
-                                    <li class="product_mark product_new">new</li>
+                                    <li class="product_mark product_new">Nuevo</li>
                                 </ul>
                             </div>
 
@@ -315,7 +315,7 @@
                                 <div class="product_fav"><i class="fas fa-heart"></i></div>
                                 <ul class="product_marks">
                                     <li class="product_mark product_discount">-25%</li>
-                                    <li class="product_mark product_new">new</li>
+                                    <li class="product_mark product_new">Nuevo</li>
                                 </ul>
                             </div>
 
@@ -334,7 +334,7 @@
                                 <div class="product_fav"><i class="fas fa-heart"></i></div>
                                 <ul class="product_marks">
                                     <li class="product_mark product_discount">-25%</li>
-                                    <li class="product_mark product_new">new</li>
+                                    <li class="product_mark product_new">Nuevo</li>
                                 </ul>
                             </div>
 
@@ -353,7 +353,7 @@
                                 <div class="product_fav"><i class="fas fa-heart"></i></div>
                                 <ul class="product_marks">
                                     <li class="product_mark product_discount">-25%</li>
-                                    <li class="product_mark product_new">new</li>
+                                    <li class="product_mark product_new">Nuevo</li>
                                 </ul>
                             </div>
 
@@ -372,7 +372,7 @@
                                 <div class="product_fav"><i class="fas fa-heart"></i></div>
                                 <ul class="product_marks">
                                     <li class="product_mark product_discount">-25%</li>
-                                    <li class="product_mark product_new">new</li>
+                                    <li class="product_mark product_new">Nuevo</li>
                                 </ul>
                             </div>
 
@@ -391,7 +391,7 @@
                                 <div class="product_fav"><i class="fas fa-heart"></i></div>
                                 <ul class="product_marks">
                                     <li class="product_mark product_discount">-25%</li>
-                                    <li class="product_mark product_new">new</li>
+                                    <li class="product_mark product_new">Nuevo</li>
                                 </ul>
                             </div>
 
@@ -410,7 +410,7 @@
                                 <div class="product_fav"><i class="fas fa-heart"></i></div>
                                 <ul class="product_marks">
                                     <li class="product_mark product_discount">-25%</li>
-                                    <li class="product_mark product_new">new</li>
+                                    <li class="product_mark product_new">Nuevo</li>
                                 </ul>
                             </div>
 
@@ -429,7 +429,7 @@
                                 <div class="product_fav"><i class="fas fa-heart"></i></div>
                                 <ul class="product_marks">
                                     <li class="product_mark product_discount">-25%</li>
-                                    <li class="product_mark product_new">new</li>
+                                    <li class="product_mark product_new">Nuevo</li>
                                 </ul>
                             </div>
 
@@ -448,7 +448,7 @@
                                 <div class="product_fav"><i class="fas fa-heart"></i></div>
                                 <ul class="product_marks">
                                     <li class="product_mark product_discount">-25%</li>
-                                    <li class="product_mark product_new">new</li>
+                                    <li class="product_mark product_new">Nuevo</li>
                                 </ul>
                             </div>
 
@@ -467,7 +467,7 @@
                                 <div class="product_fav"><i class="fas fa-heart"></i></div>
                                 <ul class="product_marks">
                                     <li class="product_mark product_discount">-25%</li>
-                                    <li class="product_mark product_new">new</li>
+                                    <li class="product_mark product_new">Nuevo</li>
                                 </ul>
                             </div>
 
@@ -486,7 +486,7 @@
                                 <div class="product_fav"><i class="fas fa-heart"></i></div>
                                 <ul class="product_marks">
                                     <li class="product_mark product_discount">-25%</li>
-                                    <li class="product_mark product_new">new</li>
+                                    <li class="product_mark product_new">Nuevo</li>
                                 </ul>
                             </div>
 
@@ -522,7 +522,7 @@
             <div class="row">
                 <div class="col">
                     <div class="viewed_title_container">
-                        <h3 class="viewed_title">Recently Viewed</h3>
+                        <h3 class="viewed_title">Visto recién</h3>
                         <div class="viewed_nav_container">
                             <div class="viewed_nav viewed_prev"><i class="fas fa-chevron-left"></i></div>
                             <div class="viewed_nav viewed_next"><i class="fas fa-chevron-right"></i></div>
@@ -546,7 +546,7 @@
                                     </div>
                                     <ul class="item_marks">
                                         <li class="item_mark item_discount">-25%</li>
-                                        <li class="item_mark item_new">new</li>
+                                        <li class="item_mark item_new">Nuevo</li>
                                     </ul>
                                 </div>
                             </div>
@@ -562,7 +562,7 @@
                                     </div>
                                     <ul class="item_marks">
                                         <li class="item_mark item_discount">-25%</li>
-                                        <li class="item_mark item_new">new</li>
+                                        <li class="item_mark item_new">Nuevo</li>
                                     </ul>
                                 </div>
                             </div>
@@ -578,7 +578,7 @@
                                     </div>
                                     <ul class="item_marks">
                                         <li class="item_mark item_discount">-25%</li>
-                                        <li class="item_mark item_new">new</li>
+                                        <li class="item_mark item_new">Nuevo</li>
                                     </ul>
                                 </div>
                             </div>
@@ -594,7 +594,7 @@
                                     </div>
                                     <ul class="item_marks">
                                         <li class="item_mark item_discount">-25%</li>
-                                        <li class="item_mark item_new">new</li>
+                                        <li class="item_mark item_new">Nuevo</li>
                                     </ul>
                                 </div>
                             </div>
@@ -610,7 +610,7 @@
                                     </div>
                                     <ul class="item_marks">
                                         <li class="item_mark item_discount">-25%</li>
-                                        <li class="item_mark item_new">new</li>
+                                        <li class="item_mark item_new">Nuevo</li>
                                     </ul>
                                 </div>
                             </div>
@@ -626,7 +626,7 @@
                                     </div>
                                     <ul class="item_marks">
                                         <li class="item_mark item_discount">-25%</li>
-                                        <li class="item_mark item_new">new</li>
+                                        <li class="item_mark item_new">Nuevo</li>
                                     </ul>
                                 </div>
                             </div>
