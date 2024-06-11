@@ -5,6 +5,7 @@ use App\Http\Controllers\IndexController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\ProductoController;
 use App\Http\Controllers\RegistroController;
+use App\Http\Controllers\SearchController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,6 +34,6 @@ Route::get('/carrito', function() {
   return view("cart.cart");
 });
 
-Route::get('/shop', function() {
-  return view("shop");
-});
+Route::get('/shop', [SearchController::class, 'index'] );
+
+Route::get('/search', [SearchController::class, 'search']);
