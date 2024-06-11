@@ -18,6 +18,8 @@ use App\Http\Controllers\SearchController;
 |
 */
 
+Route::get('/',[IndexController::class, 'index']);
+
 Route::resource('index', IndexController::class);
 
 Route::resource('producto', ProductoController::class);
