@@ -6,7 +6,7 @@
 
   <!-- Deals of the week -->
 
-  <div class="deals_featured mt-5">
+  {{-- <div class="deals_featured mt-5">
     <div class="container">
       <div class="row">
         <div class="col d-flex flex-lg-row flex-column align-items-center justify-content-start">
@@ -17,6 +17,8 @@
             <div class="deals_title">Deals of the Week</div>
             <div class="deals_slider_container">
 
+
+              
               <!-- Deals Slider -->
               <div class="owl-carousel owl-theme deals_slider">
 
@@ -108,8 +110,8 @@
                   </div>
                 </div>
 
-                <!-- Deals Item -->
-                <div class="owl-item deals_item">
+                <!-- Deals Item --> --}}
+                {{-- <div class="owl-item deals_item">
                   <div class="deals_image"><img src="images/deals.png" alt=""></div>
                   <div class="deals_content">
                     <div class="deals_info_line d-flex flex-row justify-content-start">
@@ -160,10 +162,10 @@
               <div class="deals_slider_prev deals_slider_nav"><i class="fas fa-chevron-left ml-auto"></i></div>
               <div class="deals_slider_next deals_slider_nav"><i class="fas fa-chevron-right ml-auto"></i></div>
             </div>
-          </div>
+          </div> --}}
 
           <!-- Featured -->
-          <div class="featured">
+          {{-- <div class="featured">
             <div class="tabbed_container">
               <div class="tabs">
                 <ul class="clearfix">
@@ -172,7 +174,7 @@
                   <li>Best Rated</li>
                 </ul>
                 <div class="tabs_line"><span></span></div>
-              </div>
+              </div> --}}
 
               <!-- Product Panel -->
               <div class="product_panel panel active">
@@ -1182,7 +1184,7 @@
 
   <!-- Banner -->
 
-  <div class="banner_2">
+  {{-- <div class="banner_2">
     <div class="banner_2_background" style="background-image:url(images/banner_2_background.jpg)"></div>
     <div class="banner_2_container">
       <div class="banner_2_dots"></div>
@@ -1270,7 +1272,7 @@
 
       </div>
     </div>
-  </div>
+  </div> --}}
 
   <!-- Hot New Arrivals -->
 
@@ -3435,7 +3437,7 @@
   </div>
 
   <!-- Adverts -->
-
+{{-- 
   <div class="adverts">
     <div class="container">
       <div class="row">
@@ -3488,11 +3490,11 @@
 
       </div>
     </div>
-  </div>
+  </div> --}}
 
   <!-- Trends -->
 
-  <div class="trends">
+  {{-- <div class="trends">
     <div class="trends_background" style="background-image:url(images/trends_background.jpg)"></div>
     <div class="trends_overlay"></div>
     <div class="container">
@@ -3646,7 +3648,7 @@
 
       </div>
     </div>
-  </div>
+  </div> --}}
 
   <!-- Reviews -->
 
