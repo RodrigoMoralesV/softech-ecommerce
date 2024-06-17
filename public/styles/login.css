@@ -1,0 +1,60 @@
+.header_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px; /* Puedes ajustar la altura según tus necesidades */
+}
+.logo_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_form {
+    margin-top: 20px; /* Añadir margen superior para separar el formulario del encabezado */
+}
+.footer {
+    margin-top: 30px; /* Añadir margen superior para separar el pie de página del contenido principal */
+    padding: 20px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.additional-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.additional-links a,
+.contact_form_button button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 120px; /* Ajustar ancho del botón */
+    text-align: center;
+}
+.additional-links a:hover,
+.contact_form_button button:hover {
+    background-color: #1070d6;
+}
+.contact_form_container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    transition: margin 0.3s ease, box-shadow 0.3s ease;
+    max-width: 500px; /* Ajusta el ancho del contenedor */
+    margin: 0 auto; /* Centrar el contenedor */
+}
+.contact_form_container:hover,
+.contact_form_container:focus-within {
+    margin-top: 10px; /* Añadir margen superior cuando se activa */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.contact_form_inputs input {
+    width: 100%; /* Hacer los campos más anchos */
+    margin-bottom: 10px; /* Espacio entre los campos */
+}
