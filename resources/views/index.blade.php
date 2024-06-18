@@ -154,6 +154,22 @@
                   </div>
                 </div>
 
+      @foreach ($productos as $producto)
+        <!-- Slider Item -->
+        <div class="featured_slider_item">
+          <div class="border_active"></div>
+          <div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
+            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img
+                src="images/featured_1.png" alt=""></div>
+            <div class="product_content">
+              {{-- <div class="product_price discount">$225<span>$300</span></div> --}}
+              <div class="product_price">{{ $formatPrice($producto->valor_unitario) }}</div>
+              <div class="product_name">
+                <a href="{{ route('producto.show', $producto->id_producto) }}">{{ $producto->descripcion_producto }}</a>
+              </div>
+              <div class="product_category">{{ $producto->categoria->nombre_categoria }}</div>
+              <div class="product_extras">
+                <button class="product_cart_button">Add to Cart</button>
               </div>
 
             </div>
@@ -1134,11 +1150,16 @@
               </div>
 
             </div>
+            <ul class="product_marks">
+              <li class="product_mark product_discount">-25%</li>
+              <li class="product_mark product_new">new</li>
+            </ul>
           </div>
-
         </div>
-      </div>
+      @endforeach
+
     </div>
+    <div class="featured_slider_dots_cover"></div>
   </div>
 
   <!-- Popular Categories -->
@@ -2748,9 +2769,7 @@
             <div class="tabs clearfix tabs-right">
               <div class="new_arrivals_title">Recién llegados</div>
               <ul class="clearfix">
-                <li class="active">Top 20</li>
-                <li>Audio & Video</li>
-                <li>Laptops & Computadoras</li>
+                <li class="active"></li>
               </ul>
               <div class="tabs_line"><span></span></div>
             </div>
@@ -2762,671 +2781,18 @@
               <div class="bestsellers_slider slider">
 
                 <!-- Best Sellers Item -->
-                <div class="bestsellers_item discount">
+                @foreach($productos as $producto)
+                <div class="bestsellers_item">
                   <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                     <div class="bestsellers_image"><img src="images/best_1.png" alt=""></div>
                     <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
+                      <div class="bestsellers_category"><a href="#">{{ $producto->categoria->nombre_categoria }}</a></div>
+                      <div class="bestsellers_name"><a href="{{ route('producto.show', $producto->id_producto) }}">{{ $producto->descripcion_producto }}</a></div>
+                      <div class="bestsellers_price discount">{{ $formatPrice($producto->valor_unitario) }}</div>
                     </div>
                   </div>
-                  <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
                 </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item discount">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_2.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Samsung J730F...</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_3.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Nomi Black White</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_4.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Samsung Charm Gold</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item discount">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_5.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Beoplay H7</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_6.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Huawei MediaPad T3</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item discount">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_1.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item discount">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_2.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_3.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_4.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item discount">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_5.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_6.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-              </div>
-            </div>
-
-            <div class="bestsellers_panel panel">
-
-              <!-- Best Sellers Slider -->
-
-              <div class="bestsellers_slider slider">
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item discount">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_1.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item discount">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_2.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_3.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_4.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item discount">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_5.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_6.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item discount">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_1.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item discount">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_2.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_3.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_4.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item discount">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_5.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_6.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-              </div>
-            </div>
-
-            <div class="bestsellers_panel panel">
-
-              <!-- Best Sellers Slider -->
-
-              <div class="bestsellers_slider slider">
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item discount">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_1.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item discount">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_2.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_3.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_4.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item discount">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_5.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_6.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item discount">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_1.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item discount">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_2.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_3.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_4.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item discount">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_5.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
-                <!-- Best Sellers Item -->
-                <div class="bestsellers_item">
-                  <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
-                    <div class="bestsellers_image"><img src="images/best_6.png" alt=""></div>
-                    <div class="bestsellers_content">
-                      <div class="bestsellers_category"><a href="#">Audífonos</a></div>
-                      <div class="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
-                      <div class="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                      <div class="bestsellers_price discount">$225<span>$300</span></div>
-                    </div>
-                  </div>
-                  <div class="bestsellers_fav active"><i class="fas fa-heart"></i></div>
-                  <ul class="bestsellers_marks">
-                    <li class="bestsellers_mark bestsellers_discount">-25%</li>
-                    <li class="bestsellers_mark bestsellers_new">Nuevo</li>
-                  </ul>
-                </div>
-
+                @endforeach
               </div>
             </div>
           </div>
@@ -3437,7 +2803,7 @@
   </div>
 
   <!-- Adverts -->
-{{-- 
+  {{-- 
   <div class="adverts">
     <div class="container">
       <div class="row">
