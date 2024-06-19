@@ -60,7 +60,6 @@
                 </div>
                 <div class="cart_content">
                   <div class="cart_text"><a href="{{route('cart.view')}}">Carrito</a></div>
-                  <div class="cart_price"><span>{{ $totalItems }}</span>
                   </div>
                 </div>
               </div>

@@ -32,10 +32,8 @@ Route::post('/store', [RegistroController::class, 'store']);
 
 //cart routes
 Route::get('/cart', [CarritoController::class, 'viewCart'])->name('cart.view');
-Route::post('/cart/add/{productId}', [CarritoController::class, 'addToCart'])->name('cart.add');
-Route::post('/cart/add/{productId}', [CarritoController::class, 'addToCart'])->name('cart.add');
-Route::delete('/cart/remove/{productId}', [CarritoController::class, 'removeFromCart'])->name('cart.remove');
-//end cart routes
+Route::post('/cart/add/{id_producto}', [CarritoController::class, 'addToCart'])->name('cart.add');
+Route::delete('/cart/remove/{id_producto}', [CarritoController::class, 'removeFromCart'])->name('cart.remove');
 
 Route::get('/shop', function() {
   return view("shop");

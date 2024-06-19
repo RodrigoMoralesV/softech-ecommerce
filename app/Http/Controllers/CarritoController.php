@@ -1,7 +1,7 @@
 <?php
 namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
+use Illuminate\Routing\Controller;
 use Illuminate\Http\Request;
 use App\Models\Producto;
 
@@ -9,78 +9,84 @@ class CarritoController extends Controller
 {
     public function viewCart(Request $request)
     {
-        // Get the cart from the session
+        // Obtener el carrito desde la sesión
         $cart = $request->session()->get('cart', []);
         
         $total = 0;
+        $totalItems = 0;
         $cartItems = [];
-        foreach ($cart as $productId => $item) {
-            $product = Producto::find($productId);
+        foreach ($cart as $id_producto => $item) {
+            $product = Producto::find($id_producto);
             if ($product) {
                 $productDetails = [
-                    'image' => $product->galeria_imagenes_productos,
+                    'image' => $product->imagen_miniatura_producto,
                     'name' => $product->descripcion_producto,
                     'price'=> $product->valor_unitario,
                     'value' => $product->Descuento_producto,
                     'quantity' => $item['quantity'],
+                    'id_producto' => $id_producto // Agregar el id_producto al detalle del producto
                 ];
                 $cartItems[] = $productDetails;
 
                 $subtotal = ($product->valor_unitario - $product->Descuento_producto) * $item['quantity'];
                 $total += $subtotal;
+                $totalItems += $item['quantity']; // Contar la cantidad total de productos
             }
         }
         
-        // Pass $cartItems and $total to the view
-        return view('carrito/cart', compact('cartItems', 'total'));
+        // Pasar $cartItems, $total y $totalItems a la vista
+        return view('cart/cart', compact('cartItems', 'total', 'totalItems'));
     }
 
-    public function addToCart(Request $request, $productId)
+    public function addToCart(Request $request, $id_producto)
     {
-        // Retrieve the product with the given ID from the database
-        $product = Producto::find($productId);
+        // Obtener el producto con el ID dado desde la base de datos
+        $product = Producto::find($id_producto);
 
-        // Check if the product exists
+        // Verificar si el producto existe
         if (!$product) {
-            return response()->json(['message' => 'Product not found'], 404);
+            return redirect()->back()->with('error', 'Producto no encontrado');
         }
 
-        // Get the cart from the session or create a new one if it doesn't exist
+        // Obtener el carrito desde la sesión o crear uno nuevo si no existe
         $cart = $request->session()->get('cart', []);
 
-        // Check if the product is already in the cart
-        if (isset($cart[$productId])) {
-            // Increment the quantity of the existing product in the cart
-            $cart[$productId]['quantity']++;
+        // Verificar si el producto ya está en el carrito
+        if (isset($cart[$id_producto])) {
+            // Incrementar la cantidad del producto existente en el carrito
+            $cart[$id_producto]['quantity']++;
         } else {
-            // Add the product to the cart with a quantity of 1
-            $cart[$productId] = [
-                'quantity' => 1
+            // Agregar el producto al carrito con una cantidad de 1
+            $cart[$id_producto] = [
+                'quantity' => 1,
+                'name' => $product->descripcion_producto,
+                'price' => $product->valor_unitario
             ];
         }
 
-        // Store the updated cart in the session
+        // Guardar el carrito actualizado en la sesión
         $request->session()->put('cart', $cart);
 
-        return response()->json(['message' => 'Product added to cart'], 200);
+        return redirect()->back()->with('success', 'Producto agregado al carrito');
     }
 
-    public function removeFromCart(Request $request, $productId)
+    public function removeFromCart(Request $request, $id_producto)
     {
-        // Get the cart from the session
+        // Obtener el carrito desde la sesión
         $cart = $request->session()->get('cart', []);
         
-        // Check if the product exists in the cart
-        if (isset($cart[$productId])) {
-            // Remove the product from the cart
-            unset($cart[$productId]);
+        // Verificar si el producto existe en el carrito
+        if (isset($cart[$id_producto])) {
+            // Eliminar el producto del carrito
+            unset($cart[$id_producto]);
             
-            // Store the updated cart in the session
+            // Guardar el carrito actualizado en la sesión
             $request->session()->put('cart', $cart);
             
-            return response()->json(['message' => 'Product removed from cart'], 200);
+            return response()->json(['message' => 'Producto eliminado del carrito'], 200);
         } else {
-            return response()->json(['message' => 'Product not found in cart'], 404);
+            return response()->json(['message' => 'Producto no encontrado en el carrito'], 404);
         }
     }
 }
+?>
