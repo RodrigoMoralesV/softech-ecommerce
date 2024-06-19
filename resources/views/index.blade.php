@@ -194,7 +194,7 @@
                           </div>
                           <div class="product_category">{{ $producto->categoria->nombre_categoria }}</div>
                           <div class="product_extras">
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <ul class="product_marks">
@@ -232,7 +232,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -261,7 +261,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button active">Add to Cart</button>
+                          <button class="product_cart_button active">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -289,7 +289,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -318,7 +318,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -346,7 +346,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -374,7 +374,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -403,7 +403,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -431,7 +431,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -459,7 +459,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -487,7 +487,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -515,7 +515,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -543,7 +543,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -571,7 +571,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -599,7 +599,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -627,7 +627,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -655,7 +655,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -693,7 +693,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -722,7 +722,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button active">Add to Cart</button>
+                          <button class="product_cart_button active">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -750,7 +750,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -779,7 +779,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -807,7 +807,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -835,7 +835,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -864,7 +864,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -892,7 +892,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -920,7 +920,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -948,7 +948,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -976,7 +976,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -1004,7 +1004,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -1032,7 +1032,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -1060,7 +1060,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -1088,7 +1088,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -1116,7 +1116,7 @@
                             <input type="radio" name="product_color" style="background:#000000">
                             <input type="radio" name="product_color" style="background:#999999">
                           </div>
-                          <button class="product_cart_button">Add to Cart</button>
+                          <button class="product_cart_button">Agregar al Carrito </button>
                         </div>
                       </div>
                       <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -1313,7 +1313,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -1342,7 +1342,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button active">Add to Cart</button>
+                            <button class="product_cart_button active">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -1371,7 +1371,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -1400,7 +1400,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -1429,7 +1429,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -1458,7 +1458,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -1487,7 +1487,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -1516,7 +1516,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -1545,7 +1545,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -1574,7 +1574,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -1603,7 +1603,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -1632,7 +1632,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -1661,7 +1661,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -1690,7 +1690,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -1719,7 +1719,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -1748,7 +1748,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -1784,7 +1784,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -1813,7 +1813,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button active">Add to Cart</button>
+                            <button class="product_cart_button active">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -1842,7 +1842,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -1871,7 +1871,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -1900,7 +1900,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -1929,7 +1929,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -1958,7 +1958,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -1987,7 +1987,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -2016,7 +2016,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -2045,7 +2045,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -2074,7 +2074,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -2103,7 +2103,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -2132,7 +2132,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -2161,7 +2161,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -2190,7 +2190,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -2219,7 +2219,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -2255,7 +2255,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -2284,7 +2284,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button active">Add to Cart</button>
+                            <button class="product_cart_button active">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -2313,7 +2313,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -2342,7 +2342,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -2371,7 +2371,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -2400,7 +2400,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -2429,7 +2429,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -2458,7 +2458,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -2487,7 +2487,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -2516,7 +2516,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -2545,7 +2545,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -2574,7 +2574,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -2603,7 +2603,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -2632,7 +2632,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -2661,7 +2661,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -2690,7 +2690,7 @@
                               <input type="radio" name="product_color" style="background:#000000">
                               <input type="radio" name="product_color" style="background:#999999">
                             </div>
-                            <button class="product_cart_button">Add to Cart</button>
+                            <button class="product_cart_button">Agregar al Carrito </button>
                           </div>
                         </div>
                         <div class="product_fav"><i class="fas fa-heart"></i></div>
@@ -2718,7 +2718,7 @@
                       </div>
                       <div class="rating_r rating_r_4 arrivals_single_rating"><i></i><i></i><i></i><i></i><i></i>
                       </div>
-                      <form action="#"><button class="arrivals_single_button">Add to Cart</button></form>
+                      <form action="#"><button class="arrivals_single_button">Agregar al Carrito </button></form>
                     </div>
                     <div class="arrivals_single_fav product_fav active"><i class="fas fa-heart"></i></div>
                     <ul class="arrivals_single_marks product_marks">
