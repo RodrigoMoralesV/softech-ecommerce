@@ -1639,6 +1639,7 @@ select option {
 }
 
 .product_panel {
+    margin-top: 60px;
     display: none;
     background-color: var(--bg-primary-10);
 }
