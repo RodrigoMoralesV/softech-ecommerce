@@ -32,11 +32,11 @@
                                         class="contact_form_email input_field" placeholder="Tu(s) apellido(s)" required>
 
                                     {{-- Campo del correo --}}
-                                    <input type="text" name="correo_cliente" id="correo_cliente"
+                                    <input type="text" name="email" id="email"
                                         class="contact_form_email input_field" placeholder="Tu correo" required>
 
                                     {{-- Campo de la contraseña --}}
-                                    <input type="password" name="clave_cliente" id="clave_cliente"
+                                    <input type="password" name="password" id="password"
                                         class="contact_form_phone input_field" placeholder="Tu contraseña">
 
                                     {{-- Telefono del cliente --}}

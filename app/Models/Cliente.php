@@ -11,12 +11,12 @@ class Cliente extends Authenticatable
     use HasFactory, Notifiable;
 
     protected $fillable = [
-        'correo_cliente',
+        'email',
         'tipo_identificacion_id',
         'numero_identificacion_cliente',
         'nombre_cliente',
         'apellido_cliente',
-        'clave_cliente',
+        'password',
         'telefono_cliente',
         'direccion_entrega_cliente',
         'fecha_nacimiento_cliente',
@@ -25,7 +25,7 @@ class Cliente extends Authenticatable
     ];
 
     protected $hidden = [
-        'clave_cliente',
+        'password',
         'remember_token',
     ];
 
@@ -39,12 +39,12 @@ class Cliente extends Authenticatable
 
     public function getAuthPassword()
     {
-        return $this->clave_cliente;
+        return $this->password;
     }
 
     public function getAuthIdentifierName()
     {
-        return 'correo_cliente';
+        return 'email';
     }
 
     public function ciudad()
