@@ -1396,13 +1396,26 @@ select option {
     margin-top: 60px;
     text-align: right;
 }
+#productDeletedAlert {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+    padding: 15px;
+    z-index: 9999;
+    display: none; 
+}
 
 .cart_button_clear {
     display: inline-block;
     border: none;
-    font-size: 18px;
+    font-size: 13px;
     font-weight: 400;
-    line-height: 48px;
+    line-height: 3px;
     color: var(--text-black-30);
     background-color: var(--bg-primary);
     border: solid 1px #b2b2b2;
@@ -1410,7 +1423,7 @@ select option {
     padding-right: 35px;
     outline: none;
     cursor: pointer;
-    margin-right: 26px;
+    margin-right: 24px;
 }
 
 .cart_button_clear:hover {
