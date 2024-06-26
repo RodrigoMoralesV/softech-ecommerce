@@ -1639,9 +1639,9 @@ select option {
 }
 
 .product_panel {
+    margin-top: 60px;
     display: none;
-    margin-left: -60px;
-    margin-right: -60px;
+    background-color: var(--bg-primary-10);
 }
 
 .product_panel.active {
@@ -1649,8 +1649,8 @@ select option {
 }
 
 .featured_slider {
-    width: 100%;
     padding-bottom: 50px;
+    margin-inline: 70px;
 }
 
 .featured_slider .slick-list {
@@ -1660,6 +1660,7 @@ select option {
 
 .featured_slider .slick-track {
     padding-bottom: 120px;
+    background-color: var(--bg-primary-10);
 }
 
 .featured_slider_item {
@@ -1677,7 +1678,6 @@ select option {
     -ms-transition: all 200ms ease;
     -o-transition: all 200ms ease;
     transition: all 200ms ease;
-    background-color: var(--bg-primary);
     cursor: pointer;
     padding-top: 40px;
     z-index: 0;
@@ -1685,7 +1685,7 @@ select option {
 
 .slick-active .product_item:hover {
     box-shadow: 0px 5px 25px var(--shadow-black);
-    ;
+    background-color: var(--bg-primary-10); 
     z-index: 10;
 }
 
@@ -1784,6 +1784,7 @@ select option {
 }
 
 .slick-active .product_item:hover .product_extras {
+    background-color: var(--bg-primary-10);
     max-height: 300px;
 }
 
@@ -2033,8 +2034,8 @@ select option {
 *********************************/
 
 .popular_categories {
-    padding-top: 88px;
-    padding-bottom: 90px;
+    padding-top: 90px;
+    padding-bottom: 150px;
 }
 
 .popular_categories_title {
@@ -2314,6 +2315,7 @@ select option {
 
 .arrivals_slider .slick-track {
     padding-bottom: 80px;
+    background-color: var(--bg-primary-10);
 }
 
 .arrivals_slider_item {

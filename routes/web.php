@@ -6,6 +6,8 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\ProductoController;
 use App\Http\Controllers\RegistroController;
 use App\Http\Controllers\CarritoController;
+use App\Http\Controllers\SearchController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,6 +18,8 @@ use App\Http\Controllers\CarritoController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+Route::get('/',[IndexController::class, 'index']);
 
 Route::resource('index', IndexController::class);
 
@@ -35,6 +39,6 @@ Route::get('/cart', [CarritoController::class, 'viewCart'])->name('cart.view');
 Route::post('/cart/add/{id_producto}', [CarritoController::class, 'addToCart'])->name('cart.add');
 Route::delete('/cart/remove/{id_producto}', [CarritoController::class, 'removeFromCart'])->name('cart.remove');
 
-Route::get('/shop', function() {
-  return view("shop");
-});
+Route::get('/shop', [SearchController::class, 'index'] );
+
+Route::get('/search', [SearchController::class, 'search']);

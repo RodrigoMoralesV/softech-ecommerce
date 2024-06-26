@@ -36,10 +36,7 @@
           <div class="product_description">
             <div class="product_category">{{ $producto->categoria->nombre_categoria }}</div>
             <div class="product_name_preview">{{ $producto->descripcion_producto }}</div>
-            <div class="product_text">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum. laoreet turpis, nec
-                sollicitudin dolor cursus at. Maecenas aliquet, dolor a faucibus efficitur, nisi tellus cursus urna,
-                eget dictum lacus turpis.</p>
+            <div class="product_text"> {{$producto-> descripcion_larga_producto}}
             </div>
             <div class="order_info d-flex flex-row">
               <form action="#">
@@ -47,7 +44,7 @@
 
                   <!-- Product Quantity -->
                   <div class="product_quantity clearfix">
-                    <span>Quantity: </span>
+                    <span>Cantidad: </span>
                     <input id="quantity_input" type="text" pattern="[0-9]*" value="1">
                     <div class="quantity_buttons">
                       <div id="quantity_inc_button" class="quantity_inc quantity_control"><i
@@ -64,9 +61,9 @@
                   <div class="deals_item_price ml-2">{{ $producto->stock }}</div>
                 </div>
 
-                <div class="product_price">${{ $producto->valor_unitario }}</div>
+                <div class="product_price">{{ $formatPrice($producto->valor_unitario) }}</div>
                 <div class="button_container">
-                  <button type="button" class="button cart_button">Add to Cart</button>
+                  <button type="button" class="button cart_button">Añadir al carrito</button>
                   <div class="product_fav"><i class="fas fa-heart"></i></div>
                 </div>
 
