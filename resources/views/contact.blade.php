@@ -121,7 +121,7 @@
 										<div class="cart_count"><span>10</span></div>
 									</div>
 									<div class="cart_content">
-										<div class="cart_text"><a href="#">Cart</a></div>
+										<div class="cart_text"><a href="{{route('cart.view)}}">Carrito</a></div>
 										<div class="cart_price">$85</div>
 									</div>
 								</div>

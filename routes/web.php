@@ -5,6 +5,7 @@ use App\Http\Controllers\IndexController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\ProductoController;
 use App\Http\Controllers\RegistroController;
+use App\Http\Controllers\CarritoController;
 use App\Http\Controllers\SearchController;
 
 /*
@@ -32,9 +33,11 @@ Route::get('/registro', [RegistroController::class, 'registerForm']);
 
 Route::post('/store', [RegistroController::class, 'store']);
 
-Route::get('/carrito', function() {
-  return view("cart.cart");
-});
+
+//cart routes
+Route::get('/cart', [CarritoController::class, 'viewCart'])->name('cart.view');
+Route::post('/cart/add/{id_producto}', [CarritoController::class, 'addToCart'])->name('cart.add');
+Route::delete('/cart/remove/{id_producto}', [CarritoController::class, 'removeFromCart'])->name('cart.remove');
 
 Route::get('/shop', [SearchController::class, 'index'] );
 

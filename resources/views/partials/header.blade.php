@@ -17,21 +17,21 @@
                 @include('../partials/searchBar')
                 <!-- /Search -->
 
-                <div class="col-lg-4 col-9 order-lg-3 order-2 text-lg-left text-right">
-                    <div class="wishlist_cart d-flex flex-row align-items-center justify-content-end">
-                        <!-- Cart -->
-                        <div class="cart mr-5">
-                            <div class="cart_container d-flex flex-row align-items-center justify-content-end">
-                                <div class="cart_icon">
-                                    <img src="{{ url('images/cart.png') }}" alt="">
-                                    <div class="cart_count"><span>10</span></div>
-                                </div>
-                                <div class="cart_content">
-                                    <div class="cart_text"><a href="#">Cart</a></div>
-                                    <div class="cart_price">$85</div>
-                                </div>
-                            </div>
-                        </div>
+        <div class="col-lg-4 col-9 order-lg-3 order-2 text-lg-left text-right">
+          <div class="wishlist_cart d-flex flex-row align-items-center justify-content-end">
+            <!-- Cart -->
+            <div class="cart mr-5">
+              <div class="cart_container d-flex flex-row align-items-center justify-content-end">
+                <div class="cart_icon">
+                  <img src="{{ url('images/cart.png') }}" alt="">
+                  <div class="cart_count"><span>10</span></div>
+                </div>
+                <div class="cart_content">
+                  <div class="cart_text"><a href="{{route('cart.view')}}">Carrito</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
                         <!-- Profile -->
                         <div class="wishlist d-flex flex-row align-items-center justify-content-end">
