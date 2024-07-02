@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Ciudad;
 use App\Models\Tipo_identificacion;
 use App\Models\User;
-use Illuminate\Http\Request;
+use App\Http\Requests\RegisterRequest;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 
@@ -19,22 +19,11 @@ class RegistroController extends Controller
         return view('register.register',compact('ciudades','tipo_identificacion'));
     }
 
-    public function store(Request $request)
+    public function store(RegisterRequest $request)
     {
-	  $validador = Validator::make($request->all(), [
-        "nombre_cliente" => "required|max:200",
-        "apellido_cliente" => "required|max:200",
-        "email" => "required|max:200",
-        "password" => "required|max:255",
-        "telefono_cliente" => "required|max:15",  
-        "tipo_identificacion_id" => "required",
-        "numero_identificacion_cliente" => "required|max:20",
-        "direccion_entrega_cliente" => "required|max:200",
-        "fecha_nacimiento_cliente" => "required",
-        "ciudad_id" => "required",
-      ]);
+	  $validador = $request->validated();
 
-      if($validador->fails()) {
+      if(!$validador) {
         return back()->withErrors($validador);
       }
 

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\ApiController;
 use App\Models\Categoria;
 use App\Models\Producto;
 use Illuminate\Http\Request;
@@ -19,6 +20,8 @@ Route::get('/productos/{id}', function ($id) {
     $producto = Producto::find($id);
     return $producto;
 });
+
+Route::post('/registro',[ApiController::class, 'registro']);
 
 // Route::get('/user', function (Request $request) {
 //     return $request->user();
