@@ -6,7 +6,10 @@ use App\Http\Controllers\Controller;
 use App\Http\Controllers\RegistroController;
 use App\Http\Requests\RegisterRequest;
 use App\Models\User;
+use Auth;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Validator;
 
 class ApiController extends Controller
 {
@@ -47,6 +50,47 @@ class ApiController extends Controller
             ],200);
         }
         catch (\Throwable $th) {
+            return response()->json([
+                'status' => false,
+                'message' => $th->getMessage(),
+            ],500);
+        }
+    }
+
+    public function login(Request $request)
+    {
+        try
+        {
+            $validador = Validator::make($request->all(),
+            [
+                'email' => 'required|email',
+                'password' => 'required',    
+            ]);
+
+            if($validador->fails()){
+                return response()->json([
+                    'status' => false,
+                    'message' => 'Error de validación',
+                    'erros' => $validador->errors()
+                ], 401);
+            }
+
+            if(!Auth::attempt($request->only(['email','password']))) {
+                return response()->json([
+                    'status' => false,
+                    'message' => 'Email y Password no coinciden con la db',
+                ], 401);
+            }
+
+            $user = User::where('email',$request->email)->first();
+            return response()->json([
+                'status' => true,
+                'message' => 'Usuario Logueado exitosamente',
+                'token' => $user->createToken("API TOKEN")->plainTextToken
+            ],200);
+
+        } 
+        catch(\Throwable $th) {
             return response()->json([
                 'status' => false,
                 'message' => $th->getMessage(),

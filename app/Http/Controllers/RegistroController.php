@@ -7,7 +7,6 @@ use App\Models\Tipo_identificacion;
 use App\Models\User;
 use App\Http\Requests\RegisterRequest;
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Support\Facades\Validator;
 
 class RegistroController extends Controller
 {

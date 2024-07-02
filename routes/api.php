@@ -23,6 +23,8 @@ Route::get('/productos/{id}', function ($id) {
 
 Route::post('/registro',[ApiController::class, 'registro']);
 
+Route::post('/login',[ApiController::class, 'login']);
+
 // Route::get('/user', function (Request $request) {
 //     return $request->user();
 // })->middleware('auth:sanctum');
