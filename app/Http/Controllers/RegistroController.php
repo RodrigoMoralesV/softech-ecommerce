@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\RegistroRequest;
 use App\Models\Ciudad;
 use App\Models\Tipo_identificacion;
 use App\Models\User;
-use App\Http\Requests\RegisterRequest;
 use Illuminate\Support\Facades\Hash;
 
 class RegistroController extends Controller
@@ -18,7 +18,7 @@ class RegistroController extends Controller
         return view('register.register',compact('ciudades','tipo_identificacion'));
     }
 
-    public function store(RegisterRequest $request)
+    public function store(RegistroRequest $request)
     {
 	  $validador = $request->validated();
 

@@ -3,17 +3,17 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
-use App\Http\Controllers\RegistroController;
-use App\Http\Requests\RegisterRequest;
+use App\Http\Requests\LoginRequest;
+use App\Http\Requests\RegistroRequest;
 use App\Models\User;
 use Auth;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 
-class ApiController extends Controller
+class UsuarioController extends Controller
 {
-    public function registro(RegisterRequest $request)
+    public function registro(RegistroRequest $request)
     {
         try
         {
@@ -57,17 +57,13 @@ class ApiController extends Controller
         }
     }
 
-    public function login(Request $request)
+    public function login(LoginRequest $request)
     {
         try
         {
-            $validador = Validator::make($request->all(),
-            [
-                'email' => 'required|email',
-                'password' => 'required',    
-            ]);
+            $validador = $request->validated();
 
-            if($validador->fails()){
+            if(!$validador){
                 return response()->json([
                     'status' => false,
                     'message' => 'Error de validación',
@@ -78,15 +74,15 @@ class ApiController extends Controller
             if(!Auth::attempt($request->only(['email','password']))) {
                 return response()->json([
                     'status' => false,
-                    'message' => 'Email y Password no coinciden con la db',
+                    'message' => 'Correo y / o Contraseña no coinciden con nuestros registros',
                 ], 401);
             }
 
-            $user = User::where('email',$request->email)->first();
+            $usuario = User::where('email',$request->email)->first();
             return response()->json([
                 'status' => true,
                 'message' => 'Usuario Logueado exitosamente',
-                'token' => $user->createToken("API TOKEN")->plainTextToken
+                'token' => $usuario->createToken("API TOKEN")->plainTextToken
             ],200);
 
         } 
@@ -96,5 +92,26 @@ class ApiController extends Controller
                 'message' => $th->getMessage(),
             ],500);
         }
+    }
+
+    public function perfil()
+    {
+        $datosUsuario = auth()->user();
+        return response()->json([
+            'status' => true,
+            'message' => 'Información del usuario',
+            'data' => $datosUsuario,
+            'id' => auth()->user()->id_cliente
+        ],200);
+    }
+
+    public function logout()
+    {
+        auth()->user()->tokens()->delete();
+        return response()->json([
+            'status' => true,
+            'message' => 'Cerrar sesion',
+            'data' => []
+        ],200);
     }
 }
