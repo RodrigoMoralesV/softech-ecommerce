@@ -67,7 +67,7 @@ class UsuarioController extends Controller
                 return response()->json([
                     'status' => false,
                     'message' => 'Error de validación',
-                    'erros' => $validador->errors()
+                    'errors' => $validador->errors()
                 ], 401);
             }
 
