@@ -4,6 +4,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="OneTech shop project">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="{{ url('favicon.ico') }}" sizes="any">
+
+    <link rel="icon" href="{{ url('favicon.svg') }}" type="image/svg+xml">
+
     <link rel="stylesheet" type="text/css" href="{{ url('styles/global.css') }}">
 
     <link rel="stylesheet" type="text/css" href="{{ url('styles/bootstrap4/bootstrap.min.css') }}">
@@ -19,7 +24,7 @@
     <link rel="stylesheet" type="text/css" href="{{ url('plugins/slick-1.8.0/slick.css') }}">
 
     <link rel="stylesheet" type="text/css" href="{{ url('styles/main_styles.css') }}">
-    
+
     <link rel="stylesheet" type="text/css" href="{{ url('styles/responsive.css') }}">
     @yield('css')
 </head>
