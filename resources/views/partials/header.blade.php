@@ -27,8 +27,10 @@
                                     <div class="cart_count"><span>10</span></div>
                                 </div>
                                 <div class="cart_content">
-                                    <div class="cart_text"><a href="#">Cart</a></div>
-                                    <div class="cart_price">$85</div>
+                                    <div class="cart_text">
+                                        <a href="{{ route('cart.cart') }}">Cart</a>
+                                    </div>
+                                    {{-- <div class="cart_price">$85</div> --}}
                                 </div>
                             </div>
                         </div>
@@ -37,8 +39,12 @@
                         <div class="wishlist d-flex flex-row align-items-center justify-content-end">
                             <div class="user_icon"><img src="{{ url('images/user.svg') }}" alt=""></div>
                             <div class="wishlist_content">
-                                <div class="wishlist_text"><a href="#">Profile</a></div>
-                                <div class="wishlist_count">115</div>
+                                <div class="wishlist_text">
+                                    <a href="{{ route('login.login') }}">
+                                        {{ Auth::user()->nombre_cliente ?? 'Login' }}
+                                    </a>
+                                </div>
+                                {{-- <div class="wishlist_count">115</div> --}}
                             </div>
                         </div>
                     </div>

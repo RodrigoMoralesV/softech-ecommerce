@@ -18,24 +18,24 @@ use App\Http\Controllers\SearchController;
 |
 */
 
-Route::get('/',[IndexController::class, 'index']);
+Route::get('/', [IndexController::class, 'index']);
 
 Route::resource('index', IndexController::class);
 
 Route::resource('producto', ProductoController::class);
 
-Route::get('/login', [LoginController::class, 'login']);
+Route::get('/login', [LoginController::class, 'login'])->name('login.login');
 
 Route::post('/check', [LoginController::class, 'check']);
 
-Route::get('/registro', [RegistroController::class, 'registerForm']);
+Route::get('/registro', [RegistroController::class, 'registerForm'])->name('registro.register');
 
 Route::post('/store', [RegistroController::class, 'store']);
 
-Route::get('/carrito', function() {
-  return view("cart.cart");
-});
+Route::get('/carrito', function () {
+    return view("cart.cart");
+})->name('cart.cart');
 
-Route::get('/shop', [SearchController::class, 'index'] );
+Route::get('/shop', [SearchController::class, 'index']);
 
 Route::get('/search', [SearchController::class, 'search']);

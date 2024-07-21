@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Iniciar sesión</title>
     <meta charset="utf-8">
@@ -11,8 +12,9 @@
     <link rel="stylesheet" type="text/css" href="{{ url('styles/contact_styles.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url('styles/contact_responsive.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url('styles/login.css') }}">
-   
+
 </head>
+
 <body>
 
     <!-- Header -->
@@ -31,21 +33,25 @@
                         <div class="contact_form_title d-flex justify-content-center">Log in</div>
                         <form action="{{ url('check') }}" id="contact_form" method="post">
                             @csrf
-                            <div class="contact_form_inputs d-flex flex-md-column flex-column justify-content-center align-items-center">
+                            <div
+                                class="contact_form_inputs d-flex flex-md-column flex-column justify-content-center align-items-center">
                                 @error('correo_cliente')
                                     <p>{{ $message }}</p>
                                 @enderror
-                                <input type="text" name="email" id="contact_form_email" class="contact_form_email input_field" placeholder="Your email" required data-error="Email is required.">
+                                <input type="text" name="email" id="contact_form_email"
+                                    class="contact_form_email input_field" placeholder="Your email" required
+                                    data-error="Email is required.">
                                 @error('clave_cliente')
                                     <p>{{ $message }}</p>
                                 @enderror
-                                <input type="password" name="password" id="contact_form_phone" class="contact_form_phone input_field" placeholder="Your password">
+                                <input type="password" name="password" id="contact_form_phone"
+                                    class="contact_form_phone input_field" placeholder="Your password">
                             </div>
                             <div class="additional-links d-flex justify-content-center">
                                 <div class="contact_form_button">
                                     <button type="submit" class="button contact_submit_button">Ingresar</button>
                                 </div>
-                                <a href="{{ url('register') }}">Registrar</a>
+                                <a href="{{ route('registro.register') }}">Registrar</a>
                             </div>
                         </form>
                     </div>
@@ -66,4 +72,5 @@
     </div>
 
 </body>
+
 </html>

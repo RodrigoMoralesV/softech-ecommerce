@@ -180,7 +180,11 @@
                                     <div class="product_content">
                                         <div class="product_price">{{ $product->valor_unitario }}</div>
                                         <div class="product_name">
-                                            <div><a href="#" tabindex="0">{{ $product->descripcion_producto }}</a>
+                                            <div>
+                                                <a href="{{ route('producto.show', $product->id_producto) }}"
+                                                    tabindex="0">
+                                                    {{ $product->descripcion_producto }}
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
