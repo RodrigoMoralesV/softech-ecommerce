@@ -33,11 +33,13 @@ Route::get('/registro', [RegistroController::class, 'registerForm'])->name('regi
 
 Route::post('/store', [RegistroController::class, 'store']);
 
-Route::get('/carrito', [CarritoController::class, 'index'])->name('cart.cart');
-
-Route::get('/addToCart/{id}', [CarritoController::class, 'addTocart'])->name('cart.add');
-
-Route::get('/removeFromCart/{id}', [CarritoController::class, 'removeFromCart'])->name('cart.remove');
+// Agrupando rutas del carrito
+Route::group(['prefix' => 'cart'], function () {
+    Route::get('/', [CarritoController::class, 'index'])->name('cart.cart');
+    Route::get('/addToCart/{id}', [CarritoController::class, 'addTocart'])->name('cart.add');
+    Route::get('/removeFromCart/{id}', [CarritoController::class, 'removeFromCart'])->name('cart.remove');
+    Route::get('/removeAllFromcart', [CarritoController::class, 'removeAllFromCart'])->name('cart.removeAll');
+});
 
 Route::get('/shop', [SearchController::class, 'index']);
 

@@ -89,4 +89,12 @@ class CarritoController extends Controller
 
         return back();
     }
+
+    // Eliminar todos los productos agregados al carrito
+    public function removeAllFromCart(Request $request)
+    {
+        $request->session()->flush();
+
+        return back();
+    }
 }

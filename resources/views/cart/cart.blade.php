@@ -32,7 +32,11 @@
                         </div>
 
                         <div class="cart_buttons">
-                            <button type="button" class="button cart_button_clear">Cancelar</button>
+                            @if ($total > 0)
+                                <a href="{{ route('cart.removeAll') }}">
+                                    <button type="button" class="button cart_button_clear">Eliminar productos</button>
+                                </a>
+                            @endif
                             <button type="button" class="button cart_button_checkout">Confirmar</button>
                         </div>
                     </div>
