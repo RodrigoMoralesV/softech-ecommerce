@@ -180,11 +180,17 @@
                                     <div class="product_content">
                                         <div class="product_price">{{ $product->valor_unitario }}</div>
                                         <div class="product_name">
-                                            <div><a href="#" tabindex="0">{{ $product->descripcion_producto }}</a>
+                                            <div>
+                                                <a href="{{ route('producto.show', $product->id_producto) }}"
+                                                    tabindex="0">
+                                                    {{ $product->descripcion_producto }}
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product_fav"><i class="fas fa-heart"></i></div>
+                                    <a href="{{ route('cart.add', $product->id_producto) }}">
+                                        <div class="product_fav"><i class="fas fa-cart-plus"></i></div>
+                                    </a>
                                     <ul class="product_marks">
                                         <li class="product_mark product_discount">-25%</li>
                                         <li class="product_mark product_new">new</li>
