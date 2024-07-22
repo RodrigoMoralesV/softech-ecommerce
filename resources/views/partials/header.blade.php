@@ -1,3 +1,10 @@
+@php
+    $numberAddedProducts = 0;
+    if (session()->has('cart')) {
+        $numberAddedProducts = count(session()->get('cart'));
+    }
+@endphp
+
 <header class="header main_nav">
 
     <!-- Header Main -->
@@ -24,7 +31,7 @@
                             <div class="cart_container d-flex flex-row align-items-center justify-content-end">
                                 <div class="cart_icon">
                                     <img src="{{ url('images/cart.png') }}" alt="">
-                                    <div class="cart_count"><span>10</span></div>
+                                    <div class="cart_count"><span>{{ $numberAddedProducts }}</span></div>
                                 </div>
                                 <div class="cart_content">
                                     <div class="cart_text">

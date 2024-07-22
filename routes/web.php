@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CarritoController;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\ProductoController;
@@ -32,9 +33,9 @@ Route::get('/registro', [RegistroController::class, 'registerForm'])->name('regi
 
 Route::post('/store', [RegistroController::class, 'store']);
 
-Route::get('/carrito', function () {
-    return view("cart.cart");
-})->name('cart.cart');
+Route::get('/carrito', [CarritoController::class, 'index'])->name('cart.cart');
+
+Route::get('/addToCart/{id}', [CarritoController::class, 'addTocart'])->name('cart.add');
 
 Route::get('/shop', [SearchController::class, 'index']);
 
