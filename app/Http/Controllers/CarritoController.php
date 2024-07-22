@@ -19,6 +19,7 @@ class CarritoController extends Controller
             $product = Producto::find($productId);
             if ($product) {
                 $productDetails = [
+                    'id_producto' => $product->id_producto,
                     'image' => $product->galeria_imagenes_productos,
                     'descripcion_producto' => $product->descripcion_producto,
                     'valor_unitario' => $product->valor_unitario,
@@ -71,7 +72,7 @@ class CarritoController extends Controller
         return back();
     }
 
-    // ESTA FUNCIONALIDAD NO HE IMPLEMENTADO
+    // YA ESTA FUNCIONAL, PERO TOCA ARREGLAR LA VISTA
     public function removeFromCart(Request $request, $productId)
     {
         // Get the cart from the session
@@ -84,10 +85,8 @@ class CarritoController extends Controller
 
             // Store the updated cart in the session
             $request->session()->put('cart', $cart);
-
-            return response()->json(['message' => 'Product removed from cart'], 200);
-        } else {
-            return response()->json(['message' => 'Product not found in cart'], 404);
         }
+
+        return back();
     }
 }

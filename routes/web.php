@@ -37,6 +37,8 @@ Route::get('/carrito', [CarritoController::class, 'index'])->name('cart.cart');
 
 Route::get('/addToCart/{id}', [CarritoController::class, 'addTocart'])->name('cart.add');
 
+Route::get('/removeFromCart/{id}', [CarritoController::class, 'removeFromCart'])->name('cart.remove');
+
 Route::get('/shop', [SearchController::class, 'index']);
 
 Route::get('/search', [SearchController::class, 'search']);

@@ -866,6 +866,13 @@ select option {
     font-size: 14px;
 }
 
+.cart_close {
+    position: absolute;
+    font-size: 2rem;
+    right: 1%;
+    cursor: pointer;
+}
+
 .cart_count {
     position: absolute;
     bottom: -1px;
