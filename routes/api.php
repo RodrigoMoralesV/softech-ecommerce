@@ -3,6 +3,7 @@
 use App\Http\Controllers\Api\UsuarioController;
 use App\Models\Categoria;
 use App\Models\Ciudad;
+use App\Models\Marca;
 use App\Models\Producto;
 use App\Models\Tipo_identificacion;
 use Illuminate\Http\Request;
@@ -33,6 +34,13 @@ Route::get('/identificaciones', function () {
         ->where('estado', 1)
         ->get();
     return response()->json($identificaciones);
+});
+
+Route::get('/marcas', function() {
+    $marcas = Marca::select(['id_marca','nombre_marca'])
+        ->where('estado', 1)
+        ->get();
+    return response()->json($marcas);
 });
 
 Route::post('/registro', [UsuarioController::class, 'registro']);
