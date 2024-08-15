@@ -20,7 +20,12 @@ Route::get('/categorias/{id}', function ($id) {
 });
 
 Route::get('/productos', function () {
-    $productos = Producto::all();
+    $productos = Producto::with([
+        'categoria:id_categoria,nombre_categoria', 
+        'unidad_medida:id_unidad_medida,descripcion_unidad_de_medida', 
+        'embalaje:id_embalaje,descripcion_embalaje', 
+        'marca:id_marca,nombre_marca'
+    ])->get();
     return response()->json($productos);
 });
 
