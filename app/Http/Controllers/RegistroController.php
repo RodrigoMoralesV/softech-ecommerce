@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Http\Request;
 use App\Http\Requests\RegistroRequest;
 use App\Models\Ciudad;
 use App\Models\Tipo_identificacion;

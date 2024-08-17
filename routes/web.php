@@ -31,7 +31,7 @@ Route::post('/check', [LoginController::class, 'check']);
 
 Route::get('/registro', [RegistroController::class, 'registerForm'])->name('registro.register');
 
-Route::post('/store', [RegistroController::class, 'store']);
+Route::post('/store', [RegistroController::class, 'store'])->name('registro.store');
 
 // Agrupando rutas del carrito
 Route::group(['prefix' => 'cart'], function () {

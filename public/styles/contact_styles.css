@@ -1333,8 +1333,6 @@ select option {
     padding-top: 85px;
 }
 
-.contact_form_container {}
-
 .contact_form_title {
     font-size: 30px;
     font-weight: 500;
@@ -1343,6 +1341,50 @@ select option {
 
 .contact_form_inputs {
     margin-bottom: 30px;
+}
+
+.container_input {
+    width: 100%;
+    border: solid 1px var(--border-white);
+    border-radius: 5px;
+    display: inline-block;
+    color: var(--text-blue);
+    padding: 4px 24px;
+    position: relative;
+    height: 50px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"] {
+    border: none;
+}
+
+.container_input_title {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    transition: font-size 200ms ease-in-out, transform 200ms ease-in-out;
+    background-color: white;
+}
+
+.input_field2 { 
+    position: absolute;
+    width: 100%;
+    outline: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 4px 24px;
+}
+
+.input_field2:focus + .container_input_title,
+.input_field2:focus-visible + .container_input_title,
+.input_field2:not(:placeholder-shown) + .container_input_title {
+    font-size: 10px;
+    transform: translateY(-200%);
 }
 
 .input_field {
@@ -1617,10 +1659,10 @@ select option {
 
 .footer .logo {
     top: auto;
-    -webkit-transform: transform: none;
-    -moz-transform: transform: none;
-    -ms-transform: transform: none;
-    -o-transform: transform: none;
+    --webkit-transform: transform: none;
+    --moz-transform: transform: none;
+    --ms-transform: transform: none;
+    --o-transform: transform: none;
     transform: none;
 }
 

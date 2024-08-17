@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-co">
 
 <head>
     <title>Iniciar sesión</title>
@@ -12,7 +12,6 @@
     <link rel="stylesheet" type="text/css" href="{{ url('styles/contact_styles.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url('styles/contact_responsive.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url('styles/login.css') }}">
-
 </head>
 
 <body>
@@ -38,20 +37,23 @@
                                 @error('correo_cliente')
                                     <p>{{ $message }}</p>
                                 @enderror
-                                <input type="text" name="email" id="contact_form_email"
-                                    class="contact_form_email input_field" placeholder="Your email" required
-                                    data-error="Email is required.">
+                                <label class="container_input mb-4">
+                                    <input type="email" name="email" placeholder="" class="input_field2" required autofocus>
+                                    <span class="container_input_title">Your email</span>
+                                </label>
                                 @error('clave_cliente')
                                     <p>{{ $message }}</p>
                                 @enderror
-                                <input type="password" name="password" id="contact_form_phone"
-                                    class="contact_form_phone input_field" placeholder="Your password">
+                                <label class="container_input">
+                                    <input type="password" name="password" placeholder="" class="input_field2" required>
+                                    <span class="container_input_title">Your password</span>
+                                </label>
                             </div>
                             <div class="additional-links d-flex justify-content-center">
                                 <div class="contact_form_button">
                                     <button type="submit" class="button contact_submit_button">Ingresar</button>
                                 </div>
-                                <a href="{{ route('registro.register') }}">Registrar</a>
+                                <a class="button contact_submit_button" href="{{ route('registro.register') }}">Registrar</a>
                             </div>
                         </form>
                     </div>
@@ -65,7 +67,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p>&copy; 2024 OneTech. All Rights Reserved.</p>
+                    <p>&copy; 2024 Softech. All Rights Reserved.</p>
                 </div>
             </div>
         </div>

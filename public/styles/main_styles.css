@@ -156,13 +156,6 @@ h6 {
     text-shadow: var(--text-shadow-black) 0 0 1px;
 }
 
-h1::selection,
-h2::selection,
-h3::selection,
-h4::selection,
-h5::selection,
-h6::selection {}
-
 .form-control {
     color: #db5246;
 }
@@ -3610,10 +3603,10 @@ select option {
 
 .footer .logo {
     top: auto;
-    -webkit-transform: transform: none;
-    -moz-transform: transform: none;
-    -ms-transform: transform: none;
-    -o-transform: transform: none;
+    --webkit-transform: transform: none;
+    --moz-transform: transform: none;
+    --ms-transform: transform: none;
+    --o-transform: transform: none;
     transform: none;
 }
 
@@ -3727,8 +3720,6 @@ select option {
 .copyright_content span {
     font-weight: 500;
 }
-
-.logos {}
 
 .logos_list li {
     display: inline-block;
