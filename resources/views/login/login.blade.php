@@ -1,36 +1,17 @@
-<!DOCTYPE html>
-<html lang="es-co">
+@extends('layouts.blank')
 
-<head>
-    <title>Iniciar sesión</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="OneTech shop project">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="{{ url('styles/global.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ url('styles/bootstrap4/bootstrap.min.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ url('styles/contact_styles.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ url('styles/contact_responsive.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ url('styles/login.css') }}">
-</head>
+@section('title', 'Inicar sesión')
 
-<body>
-
-    <!-- Header -->
-    <div class="header_main">
-        <div class="logo_container">
-            <div class="logo"><a href="{{ url('index') }}">Softech</a></div>
-        </div>
-    </div>
+@section('content')
 
     <!-- Login Form -->
-    <div class="contact_form">
+    <div class="contact_form" style="height: calc(86vh - 110px)">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
                     <div class="contact_form_container">
                         <div class="contact_form_title d-flex justify-content-center">Log in</div>
-                        <form action="{{ url('check') }}" id="contact_form" method="post">
+                        <form action="{{ route('login.check') }}" id="contact_form" method="post">
                             @csrf
                             <div
                                 class="contact_form_inputs d-flex flex-md-column flex-column justify-content-center align-items-center">
@@ -38,7 +19,8 @@
                                     <p>{{ $message }}</p>
                                 @enderror
                                 <label class="container_input mb-4">
-                                    <input type="email" name="email" placeholder="" class="input_field2" required autofocus>
+                                    <input type="email" name="email" placeholder="" class="input_field2" required
+                                        autofocus>
                                     <span class="container_input_title">Your email</span>
                                 </label>
                                 @error('clave_cliente')
@@ -53,7 +35,8 @@
                                 <div class="contact_form_button">
                                     <button type="submit" class="button contact_submit_button">Ingresar</button>
                                 </div>
-                                <a class="button contact_submit_button" href="{{ route('registro.register') }}">Registrar</a>
+                                <a class="button contact_submit_button"
+                                    href="{{ route('registro.register') }}">Registrar</a>
                             </div>
                         </form>
                     </div>
@@ -62,17 +45,4 @@
         </div>
     </div>
 
-    <!-- Footer -->
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p>&copy; 2024 Softech. All Rights Reserved.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</body>
-
-</html>
+@endsection

@@ -27,7 +27,7 @@ Route::resource('producto', ProductoController::class);
 
 Route::get('/login', [LoginController::class, 'login'])->name('login.login');
 
-Route::post('/check', [LoginController::class, 'check']);
+Route::post('/check', [LoginController::class, 'check'])->name('login.check');
 
 Route::get('/registro', [RegistroController::class, 'registerForm'])->name('registro.register');
 
