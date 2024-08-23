@@ -7,6 +7,8 @@ use App\Http\Requests\RegistroRequest;
 use App\Models\Ciudad;
 use App\Models\Tipo_identificacion;
 use App\Models\User;
+use Illuminate\Auth\Events\Registered;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 
 class RegistroController extends Controller
@@ -31,7 +33,7 @@ class RegistroController extends Controller
 
         $request['password'] = Hash::make($request['password']);
 
-        $request = User::create([
+        $user = User::create([
             'email' => $request['email'],
             'tipo_identificacion_id' => $request['tipo_identificacion_id'],
             'numero_identificacion_cliente' => $request['numero_identificacion_cliente'],
@@ -44,6 +46,12 @@ class RegistroController extends Controller
             'ciudad_id' => $request['ciudad_id'],
         ]);
 
-        return redirect('login');
+        // Iniciar sesión después de registrarse
+        Auth::login($user);
+
+        // Para verificar el correo
+        event(new Registered($user));
+
+        return redirect()->route('verification.notice');
     }
 }

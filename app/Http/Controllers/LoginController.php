@@ -12,7 +12,7 @@ class LoginController extends Controller
     // Retornar vista del login
     public function login()
     {
-        Mail::to(["js.199911@gmail.com", "moralesvarelarodrigo0@gmail.com", "mv.miguelv@gmail.com", "lmiguel.herl@gmail.com"])->send(new WelcomeSoftech());
+        // Mail::to(["js.199911@gmail.com", "moralesvarelarodrigo0@gmail.com", "mv.miguelv@gmail.com", "lmiguel.herl@gmail.com"])->send(new WelcomeSoftech());
         return view('login.login');
     }
 
