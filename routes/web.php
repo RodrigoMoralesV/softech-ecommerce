@@ -7,6 +7,7 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\ProductoController;
 use App\Http\Controllers\RegistroController;
 use App\Http\Controllers\SearchController;
+use App\Http\Controllers\VerifyEmailController;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,6 +33,15 @@ Route::post('/check', [LoginController::class, 'check'])->name('login.check');
 Route::get('/registro', [RegistroController::class, 'registerForm'])->name('registro.register');
 
 Route::post('/store', [RegistroController::class, 'store'])->name('registro.store');
+
+// Notifacion de verificar el correo
+Route::get('/email/verify', [VerifyEmailController::class, 'verifyNotice'])->middleware('auth')->name('verification.notice');
+
+// Verificación de correo
+Route::get('/email/verify/{id}/{hash}', [VerifyEmailController::class, 'verifyEmail'])->middleware(['auth', 'signed'])->name('verification.verify');
+
+// Reenviar correo de verificación
+Route::post('/email/verification-notification', [VerifyEmailController::class, 'verifyHandler'])->middleware(['auth', 'throttle:6,1'])->name('verification.send');
 
 // Agrupando rutas del carrito
 Route::group(['prefix' => 'cart'], function () {
