@@ -1,10 +1,10 @@
 @extends('layouts.blank')
 
-@section('title', 'Inicar sesión')
+@section('title', 'Verificar correo electronico')
 
 @section('content')
 
-    <!-- Login Form -->
+    <!-- Verify Email Form -->
     <div class="contact_form" style="height: calc(86vh - 110px)">
         <div class="container">
             <div class="row">
