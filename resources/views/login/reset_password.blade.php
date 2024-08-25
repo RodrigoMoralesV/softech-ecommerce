@@ -1,18 +1,22 @@
 @extends('layouts.blank')
 
-@section('title', 'Inicar sesión')
+@section('title', 'Recuperar contraseña')
 
 @section('content')
+    @if (session('status'))
+        <p class="">{{ session('status') }}</p>
+    @endif
 
-    <!-- Login Form -->
+    <!-- Password Resert Form -->
     <div class="contact_form" style="height: calc(86vh - 110px)">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
                     <div class="contact_form_container">
-                        <div class="contact_form_title d-flex justify-content-center">Log in</div>
-                        <form action="{{ route('login.check') }}" id="contact_form" method="post">
+                        <div class="contact_form_title d-flex justify-content-center">Recuperar contraseña</div>
+                        <form action="{{ route('password.update') }}" id="contact_form" method="post">
                             @csrf
+                            <input type="hidden" name="token" value="{{ $token }}">
                             <div
                                 class="contact_form_inputs d-flex flex-md-column flex-column justify-content-center align-items-center">
                                 @error('correo_cliente')
@@ -30,14 +34,16 @@
                                     <input type="password" name="password" placeholder="" class="input_field2" required>
                                     <span class="container_input_title">Your password</span>
                                 </label>
-                                <a href="{{ route('password.request') }}">¿Olvidaste tu contraseña?</a>
+                                <label class="container_input">
+                                    <input type="password" name="password_confirmation" placeholder="" class="input_field2"
+                                        required>
+                                    <span class="container_input_title">Your password confirm</span>
+                                </label>
                             </div>
                             <div class="additional-links d-flex justify-content-center">
                                 <div class="contact_form_button">
-                                    <button type="submit" class="button contact_submit_button">Ingresar</button>
+                                    <button type="submit" class="button contact_submit_button">Enviar</button>
                                 </div>
-                                <a class="button contact_submit_button"
-                                    href="{{ route('registro.register') }}">Registrar</a>
                             </div>
                         </form>
                     </div>

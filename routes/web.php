@@ -6,6 +6,7 @@ use App\Http\Controllers\IndexController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\ProductoController;
 use App\Http\Controllers\RegistroController;
+use App\Http\Controllers\ResetPasswordController;
 use App\Http\Controllers\SearchController;
 use App\Http\Controllers\VerifyEmailController;
 
@@ -42,6 +43,18 @@ Route::get('/email/verify/{id}/{hash}', [VerifyEmailController::class, 'verifyEm
 
 // Reenviar correo de verificación
 Route::post('/email/verification-notification', [VerifyEmailController::class, 'verifyHandler'])->middleware(['auth', 'throttle:6,1'])->name('verification.send');
+
+// Enviado a vista de recupera contraseña
+Route::get('/forgot-password', [ResetPasswordController::class, 'passwordRequest'])->name('password.request');
+
+// Manejando el envio de correo para recuperar contraseña
+Route::post('/forgot-password', [ResetPasswordController::class, 'passwordEmail'])->name('password.email');
+
+// Enviado a vista de resetear contraseña
+Route::get('/reset-password/{token}', [ResetPasswordController::class, 'passwordReset'])->name('password.reset');
+
+// Resetear contraseña
+Route::post('/reset-password', [ResetPasswordController::class, 'passwordUpdate'])->name('password.update');
 
 // Agrupando rutas del carrito
 Route::group(['prefix' => 'cart'], function () {

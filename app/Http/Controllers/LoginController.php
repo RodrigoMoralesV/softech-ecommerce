@@ -2,10 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Mail\WelcomeSoftech;
 use Auth;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Mail;
 
 class LoginController extends Controller
 {
