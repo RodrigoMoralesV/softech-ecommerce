@@ -65,6 +65,14 @@ Route::get('/ciudades', function () {
     return response()->json($ciudades);
 });
 
+Route::prefix('password')->group(function () {
+    // Enviar enlace de restablecimiento de contraseña
+    Route::post('/email', [UsuarioController::class, 'passwordEmail']);
+    
+    // Actualizar la contraseña
+    // Route::post('/reset', [UsuarioController::class, 'passwordUpdate']);
+});
+
 // Route::get('/user', function (Request $request) {
 //     return $request->user();
 // })->middleware('auth:sanctum');
