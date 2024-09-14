@@ -29,6 +29,11 @@ Route::get('/productos', function () {
     return response()->json($productos);
 });
 
+Route::get('/productos/categoria/{id_categoria}', function ($id_categoria) {
+    $productos_categoria = Producto::where('categoria_id',$id_categoria)->get();
+    return response()->json($productos_categoria);
+});
+
 Route::get('/productos/{id}', function ($id) {
     $producto = Producto::find($id);
     return $producto;
