@@ -3,11 +3,19 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
 use App\Models\Producto;
+use App\Services\CurrencyConverter;
+use Illuminate\Http\Request;
 
 class CarritoController extends Controller
 {
+    protected $currencyConverter;
+
+    public function __construct(CurrencyConverter $currencyConverter)
+    {
+        $this->currencyConverter = $currencyConverter;
+    }
+
     public function index(Request $request)
     {
         // Get the cart from the session
@@ -96,5 +104,16 @@ class CarritoController extends Controller
         $request->session()->flush();
 
         return back();
+    }
+
+    public function payment($total)
+    {
+        try {
+            $totalUSD = $this->currencyConverter->convertToUSD($total);
+
+            return view('payment.payment',compact('totalUSD'));
+        } catch (\Exception $e) {
+            return back()->with('error', 'Error');
+        }
     }
 }

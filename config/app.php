@@ -123,4 +123,12 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    'paypal' => [
+        'id' => env('PAYPAL_CLIENT_ID'),
+        'secret' => env('PAYPAL_CLIENT_SECRET'),
+    ],
+
+    'currency_converter' => [
+        'api_key' => env('OPEN_EXCHANGE_ID')
+    ]
 ];

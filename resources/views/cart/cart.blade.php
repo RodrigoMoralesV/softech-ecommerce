@@ -37,7 +37,7 @@
                                     <button type="button" class="button cart_button_clear">Eliminar productos</button>
                                 </a>
                             @endif
-                            <button type="button" class="button cart_button_checkout">Confirmar</button>
+                            <a href="{{ route('cart.payment', ['total' => $total]) }}" type="button" class="button cart_button_checkout">Confirmar</a>
                         </div>
                     </div>
                 </div>

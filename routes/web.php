@@ -62,6 +62,7 @@ Route::group(['prefix' => 'cart'], function () {
     Route::get('/addToCart/{id}', [CarritoController::class, 'addTocart'])->name('cart.add');
     Route::get('/removeFromCart/{id}', [CarritoController::class, 'removeFromCart'])->name('cart.remove');
     Route::get('/removeAllFromcart', [CarritoController::class, 'removeAllFromCart'])->name('cart.removeAll');
+    Route::get('/pay/{total}', [CarritoController::class, 'payment'])->name('cart.payment');
 });
 
 Route::get('/shop', [SearchController::class, 'index']);

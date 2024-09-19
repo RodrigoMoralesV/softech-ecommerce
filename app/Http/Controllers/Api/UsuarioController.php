@@ -118,7 +118,6 @@ class UsuarioController extends Controller
         ],200);
     }
 
-
     // Enviar enlace de restablecimiento de contraseña
     public function passwordEmail(Request $request)
     {
@@ -136,31 +135,31 @@ class UsuarioController extends Controller
     }
 
     // Restablecer contraseña
-    // public function passwordUpdate(Request $request)
-    // {
-    //     $request->validate([
-    //         'token' => 'required',
-    //         'email' => 'required|email',
-    //         'password' => 'required|confirmed',
-    //     ]);
+    public function passwordUpdate(Request $request)
+    {
+        $request->validate([
+            'token' => 'required',
+            'email' => 'required|email',
+            'password' => 'required|confirmed',
+        ]);
 
-    //     $status = Password::reset(
-    //         $request->only('email', 'password', 'password_confirmation', 'token'),
-    //         function (User $user, string $password) {
-    //             $user->forceFill([
-    //                 'password' => Hash::make($password)
-    //             ])->setRememberToken(Str::random(60));
+        $status = Password::reset(
+            $request->only('email', 'password', 'password_confirmation', 'token'),
+            function (User $user, string $password) {
+                $user->forceFill([
+                    'password' => Hash::make($password)
+                ])->setRememberToken(Str::random(60));
 
-    //             $user->save();
+                $user->save();
 
-    //             event(new PasswordReset($user));
-    //         }
-    //     );
+                event(new PasswordReset($user));
+            }
+        );
 
-    //     if ($status === Password::PASSWORD_RESET) {
-    //         return response()->json(['message' => __($status)], 200);
-    //     }
+        if ($status === Password::PASSWORD_RESET) {
+            return response()->json(['message' => __($status)], 200);
+        }
 
-    //     return response()->json(['error' => __($status)], 400);
-    // }
+        return response()->json(['error' => __($status)], 400);
+    }
 }
