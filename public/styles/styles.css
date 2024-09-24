@@ -1,0 +1,29 @@
+
+/* Estilo personalizado para los botones de navegación del carrusel */
+.carousel-control-prev, 
+.carousel-control-next {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco transparente */
+    border: 2px solid #007bff; /* Borde azul */
+    border-radius: 50%; /* Botón circular */
+    width: 45px; /* Ancho del botón */
+    height: 45px; /* Alto del botón */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto hover para el botón */
+.carousel-control-prev:hover, 
+.carousel-control-next:hover {
+    background-color: rgba(0, 123, 255, 0.8); /* Fondo azul más oscuro al pasar el ratón */
+    transform: scale(1.1); /* Aumenta el tamaño del botón al hacer hover */
+}
+
+/* Cambiar color de las flechas */
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+    filter: invert(1); /* Flechas blancas */
+    width: 20px;
+    height: 20px;
+}
