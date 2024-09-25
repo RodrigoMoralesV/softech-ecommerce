@@ -51,40 +51,6 @@
   column-gap: 15px;
 }
 
-.form .gender-box {
-  margin-top: 20px;
-}
-
-.gender-box h3 {
-  color: #333;
-  font-size: 1rem;
-  font-weight: 400;
-  margin-bottom: 8px;
-}
-
-.form :where(.gender-option, .gender) {
-  display: flex;
-  align-items: center;
-  column-gap: 50px;
-  flex-wrap: wrap;
-}
-
-.form .gender {
-  column-gap: 5px;
-}
-
-.gender input {
-  accent-color: rgb(130, 106, 251);
-}
-
-.form :where(.gender input, .gender label) {
-  cursor: pointer;
-}
-
-.gender label {
-  color: #707070;
-}
-
 .address :where(input, .select-box) {
   margin-top: 15px;
 }
@@ -113,6 +79,43 @@
 
 .form button:hover {
   background: rgb(88, 56, 250);
+}
+
+.date-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.date-input-label {
+  color: var(--text-blue);
+  font-size: 14px;
+  margin-bottom: 0.5rem;
+}
+
+option {
+  color: var(--text-blue);
+}
+
+.styled-date-input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.styled-date-input::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.styled-date-input::-webkit-datetime-edit {
+  color: #555;
+}
+
+.styled-date-input::-webkit-datetime-edit-fields-wrapper {
+  padding: 0;
 }
 
 /*Responsive*/

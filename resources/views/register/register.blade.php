@@ -33,19 +33,18 @@
                                 <input type="email" name="email" placeholder="" class="input_field2" required>
                                 <span class="container_input_title">Your email</span>
                             </label>
-                            <div class="column">
-                                <!-- Telefono -->
-                                <label class="container_input mb-4">
-                                    <input type="text" name="telefono_cliente" placeholder="" class="input_field2"
-                                        required>
-                                    <span class="container_input_title">Your phone</span>
-                                </label>
-                                <!-- Fecha de nacimiento -->
-                                <label class="container_input mb-4">
-                                    <input type="date" name="fecha_nacimiento_cliente" placeholder="Enter birth date"
-                                        required />
-                                </label>
-                            </div>
+                            <!-- Telefono -->
+                            <label class="container_input mb-4">
+                                <input type="text" name="telefono_cliente" placeholder="" class="input_field2" required>
+                                <span class="container_input_title">Your phone</span>
+                            </label>
+                            <!-- Fecha de nacimiento -->
+                            <label class="date-input-container mb-4">
+                                <span class="date-input-label">Your birth date</span>
+                                <input type="date" name="fecha_nacimiento_cliente" required class="styled-date-input" />
+                            </label>
+
+
                             <div class="column">
                                 <!-- Tipo identificacion -->
                                 <div class="select-box">
@@ -68,26 +67,24 @@
                             <div class="column">
                                 <!-- Departamento -->
                                 <div class="select-box">
-                                    <select id="departamento">
-                                        <option hidden>Your department</option>
-                                        @foreach ($tipo_identificacion as $tipo_id)
-                                            <option value="{{ $tipo_id->id_tipo_identificacion }}">
-                                                {{ $tipo_id->descripcion_tipo_identificacion }}
+                                    <select id="departamento" name="departamento_id">
+                                        <option value="" hidden>Select department</option>
+                                        @foreach ($departamentos as $departamento)
+                                            <option value="{{ $departamento->id_departamento }}">
+                                                {{ $departamento->nombre_departamento }}
                                             </option>
                                         @endforeach
                                     </select>
                                 </div>
                                 <!-- Ciudad -->
                                 <div class="select-box">
-                                    <select name="ciudad_id">
-                                        <option hidden>Your city</option>
-                                        @foreach ($ciudades as $ciudad)
-                                            <option value="{{ $ciudad->id_ciudad }}">{{ $ciudad->nombre_ciudad }}
-                                            </option>
-                                        @endforeach
+                                    <select name="ciudad_id" id="ciudad" disabled>
+                                        <option value="" hidden>Select city</option>
                                     </select>
                                 </div>
                             </div>
+
+                            
                             <!-- Direccion -->
                             <label class="container_input mt-4 mb-4">
                                 <input type="text" name="direccion_entrega_cliente" placeholder="" class="input_field2"
@@ -111,5 +108,7 @@
             </div>
         </div>
     </div>
+
+    <script src=" {{ url('js/getCiudadesPorDepartamento.js') }} "></script>
 
 @endsection

@@ -75,7 +75,12 @@ Route::prefix('password')->group(function () {
     Route::post('/email', [UsuarioController::class, 'passwordEmail']);
     
     // Actualizar la contraseña
-    // Route::post('/reset', [UsuarioController::class, 'passwordUpdate']);
+    Route::post('/reset', [UsuarioController::class, 'passwordUpdate']);
+});
+
+Route::get('/ciudades/departamento/{id}', function ($id) {
+    $ciudades = Ciudad::where('departamento_id', $id)->get(['id_ciudad', 'nombre_ciudad']);
+    return response()->json($ciudades);
 });
 
 // Route::get('/user', function (Request $request) {
