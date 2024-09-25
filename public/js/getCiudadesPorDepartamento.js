@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
       fetch(`http://127.0.0.1:8000/api/ciudades/departamento/${departamentoId}`)
         .then(response => response.json())
         .then(ciudades => {
-          ciudadSelect.innerHTML = '<option value="" disabled selected>Select city</option>';
+          ciudadSelect.innerHTML = '<option value="" hidden>Select city</option>';
           ciudades.forEach(ciudad => {
             const option = document.createElement('option');
             option.value = ciudad.id_ciudad;
