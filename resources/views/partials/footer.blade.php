@@ -7,28 +7,28 @@
           <div class="logo_container">
             <div class="logo"><a href="#">Softech</a></div>
           </div>
-          <div class="footer_title">¿Tienes preguntas? Llamanos 24/7</div>
-          <div class="footer_phone">+38 068 005 3570</div>
+          <div class="footer_title"></div>
+          <div class="footer_phone"></div>
           <div class="footer_contact_text">
-            <p>17 Princess Road, London</p>
-            <p>Grester London NW18JR, UK</p>
+            <p>Cra 2 #52154, SENA</p>
+            <p>Cali, Valle del Cauca</p>
           </div>
         </div>
       </div>
 
       <div class="col-lg-2 offset-lg-2">
         <div class="footer_column">
-          <div class="footer_title">Encuéntralo rápido</div>
+          <div class="footer_title"><!--Encuéntralo rápido--></div>
           <ul class="footer_list">
-            <li><a href="#">Computadoras & Laptops</a></li>
-            <li><a href="#">Camaras & Fotos</a></li>
-            <li><a href="#">Hardware</a></li>
-            <li><a href="#">Smartphones & Tablets</a></li>
-            <li><a href="#">TV & Audio</a></li>
+            <li><a href="#"><!--Computadoras & Laptops--></a></li>
+            <li><a href="#"><!--Camaras & Fotos--></a></li>
+            <li><a href="#"><!--Hardware--></a></li>
+            <li><a href="#"><!--Smartphones & Tablets--></a></li>
+            <li><a href="#"><!--TV & Audio--></a></li>
           </ul>
-          <div class="footer_subtitle">Gadgets</div>
+          <div class="footer_subtitle"><!--Gadgets--></div>
           <ul class="footer_list">
-            <li><a href="#">Electrónicos</a></li>
+            <li><a href="#"><!--Electrónicos--></a></li>
           </ul>
         </div>
       </div>
@@ -36,26 +36,26 @@
       <div class="col-lg-2">
         <div class="footer_column">
           <ul class="footer_list footer_list_2">
-            <li><a href="#">Video Juegos & Consolas</a></li>
-            <li><a href="#">Accessorios</a></li>
-            <li><a href="#">Camaras & Fotos</a></li>
-            <li><a href="#">Hardware</a></li>
-            <li><a href="#">Computadoras & Laptops</a></li>
+            <li><a href="#"><!--Video Juegos & Consolas--></a></li>
+            <li><a href="#"><!--Accessorios--></a></li>
+            <li><a href="#"><!--Camaras & Fotos--></a></li>
+            <li><a href="#"><!--Hardware--></a></li>
+            <li><a href="#"><!--Computadoras & Laptops--></a></li>
           </ul>
         </div>
       </div>
 
       <div class="col-lg-2">
         <div class="footer_column">
-          <div class="footer_title">Atención al cliente</div>
+          <div class="footer_title"><!--Atención al cliente--></div>
           <ul class="footer_list">
-            <li><a href="#">Mi cuenta</a></li>
-            <li><a href="#">Rastrear orden</a></li>
-            <li><a href="#">Lista de deseados</a></li>
-            <li><a href="#">Servicio al cliente</a></li>
-            <li><a href="#">Regresos / Intercambios</a></li>
-            <li><a href="#">FAQs</a></li>
-            <li><a href="#">Soporte de producto</a></li>
+            <li><a href="#"><!--Mi cuenta--></a></li>
+            <li><a href="#"><!--Rastrear orden--></a></li>
+            <li><a href="#"><!--Lista de deseados--></a></li>
+            <li><a href="#"><!--Servicio al cliente--></a></li>
+            <li><a href="#"><!--Regresos / Intercambios--></a></li>
+            <li><a href="#"><!--FAQs--></a></li>
+            <li><a href="#"><!--Soporte de producto--></a></li>
           </ul>
         </div>
       </div>
