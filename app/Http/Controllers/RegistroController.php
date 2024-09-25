@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests\RegistroRequest;
 use App\Models\Ciudad;
+use App\Models\Departamento;
 use App\Models\Tipo_identificacion;
 use App\Models\User;
 use Illuminate\Auth\Events\Registered;
@@ -17,8 +18,9 @@ class RegistroController extends Controller
     {
         $ciudades = Ciudad::all();
         $tipo_identificacion = Tipo_identificacion::all();
+        $departamentos = Departamento::all();
 
-        return view('register.register', compact('ciudades', 'tipo_identificacion'));
+        return view('register.register', compact('ciudades', 'tipo_identificacion', 'departamentos'));
     }
 
     public function store(RegistroRequest $request)
