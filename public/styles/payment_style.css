@@ -1,0 +1,7 @@
+.contact_form_container {
+  background-color: rgb(179, 207, 255);
+  width: 50%;
+  border-radius: 20px;
+  padding: 50px;
+  box-shadow: 5;
+}
