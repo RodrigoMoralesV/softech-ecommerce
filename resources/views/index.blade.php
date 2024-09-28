@@ -13,32 +13,31 @@
         <div class="carousel-item active">
             <img src="https://www.intel.com/content/dam/www/central-libraries/us/en/images/2023-10/newsroom-intel-core-14th-gen-desktop-feat.jpg" class="d-block w-100" alt="Producto 1" style="object-fit: cover; height: 500px;">
             <div class="carousel-caption d-none d-md-block">
-                {{-- <h2>Envío Rápido y Seguro</h2>
-                <p>Disfruta de hasta un 40% de descuento en productos seleccionados</p> --}}
+                <h2>Envío Rápido y Seguro</h2>
             </div>
         </div>
         <!-- Slide 2 -->
         <div class="carousel-item">
             <img src="https://www.intel.com/content/dam/www/central-libraries/us/en/images/2023-06/newsroom-arc-pro-a60-add-in-card.jpg" class="d-block w-100" alt="Producto 2" style="object-fit: cover; height: 500px;">
             <div class="carousel-caption d-none d-md-block">
-                {{-- <h2>Calidad Asegurada</h2>
-                <p>Compra productos garantizados con la mejor calidad del mercado</p> --}}
+                <h2>Calidad Asegurada</h2>
+                <p>Compra productos garantizados con la mejor calidad del mercado</p>
             </div>
         </div>
         {{-- slide 3 --}}
         <div class="carousel-item">
             <img src="https://intelcorp.scene7.com/is/image/intelcorp/co-pilot-core-ultra-collaboration-image:1920-1080?wid=1648&hei=927&fmt=webp-alpha" class="d-block w-100" alt="Producto 3" style="object-fit: cover; height: 500px;">
             <div class="carousel-caption d-none d-md-block">
-                {{-- <h2>Calidad Asegurada</h2>
-                <p>Compra productos garantizados con la mejor calidad del mercado</p> --}}
+                <h2>Calidad Asegurada</h2>
+                <p>Compra productos garantizados con la mejor calidad del mercado</p>
             </div>
         </div>
         <!-- slide 4 -->
         <div class="carousel-item">
             <img src="https://intelcorp.scene7.com/is/image/intelcorp/evo-powered-by-core-ultra-processor-overview-video-thumbnail:1920-1080" class="d-block w-100" alt="Producto 4" style="object-fit: cover; height: 500px;">
             <div class="carousel-caption d-none d-md-block">
-                {{-- <h2>Calidad Asegurada</h2>
-                <p>Compra productos garantizados con la mejor calidad del mercado</p> --}}
+                <h2>Calidad Asegurada</h2>
+                <p>Compra productos garantizados con la mejor calidad del mercado</p>
             </div>
         </div>
     </div>
