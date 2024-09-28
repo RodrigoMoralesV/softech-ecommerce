@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CarritoController;
+use App\Http\Controllers\FacturaController;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\ProductoController;
@@ -64,6 +65,8 @@ Route::group(['prefix' => 'cart'], function () {
     Route::get('/removeAllFromcart', [CarritoController::class, 'removeAllFromCart'])->name('cart.removeAll');
     Route::get('/pay/{total}', [CarritoController::class, 'payment'])->name('cart.payment');
 });
+
+Route::get('/crear-factura', [FacturaController::class, 'crearFactura'])->name('factura.create');
 
 Route::get('/shop', [SearchController::class, 'index']);
 
