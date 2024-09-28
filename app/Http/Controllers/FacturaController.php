@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use App\Mail\FacturaMail;
 use App\Models\Documento;
 use App\Models\Empresa;
 use App\Models\Resolucion;
@@ -11,6 +12,7 @@ use App\Models\User;
 use Auth;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Str;
 use PDF;
 
@@ -91,10 +93,18 @@ class FacturaController extends Controller
             'maxConsecutivo' => $numCon,
         ]);
     
-        // Descargar el PDF directamente
-        return $pdf->stream('factura_' . $numFac . '.pdf');
-    }
+        // Ver el PDF directamente
+        // return $pdf->stream('factura_' . $numFac . '.pdf');
 
+        $messageData = [
+            'numFac' => $numFac,
+            'nombreCliente' => $cliente->nombre,
+        ];
+
+        Mail::to($cliente->email)->send(new FacturaMail($messageData, $pdf, $numFac));
+
+        return redirect('index');
+    }
 
     public function generarCUFE($numFac, $fecFac, $horFac, $valFac, $valTot, $nitEmp, $numIde)
     {
