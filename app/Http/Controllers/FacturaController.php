@@ -7,10 +7,12 @@ use App\Models\Documento;
 use App\Models\Empresa;
 use App\Models\Resolucion;
 use App\Models\Transaccion;
+use App\Models\User;
 use Auth;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
+use PDF;
 
 class FacturaController extends Controller
 {
@@ -63,7 +65,21 @@ class FacturaController extends Controller
         $documento->estado = 1;
         $documento->save();
 
-        // return redirect();
+        // Obtener los datos del cliente
+        $carrito = session()->get('cart');
+        $cliente = User::find($idCli); 
+        $empresa = Empresa::first();
+
+        // Generar el PDF con los datos de la factura
+        $pdf = PDF::loadView('payment.factura', [
+            'documento' => $documento, 
+            'cliente' => $cliente, 
+            'carrito' => $carrito, 
+            'empresa' => $empresa,
+        ]);
+    
+        // Descargar el PDF directamente
+        return $pdf->download('factura_' . $numFac . '.pdf');
     }
 
 

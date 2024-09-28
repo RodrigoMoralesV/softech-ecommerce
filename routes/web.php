@@ -71,3 +71,7 @@ Route::get('/crear-factura', [FacturaController::class, 'crearFactura'])->name('
 Route::get('/shop', [SearchController::class, 'index']);
 
 Route::get('/search', [SearchController::class, 'search']);
+
+Route::get('/factura', function() {
+    return view('payment.factura');
+});
