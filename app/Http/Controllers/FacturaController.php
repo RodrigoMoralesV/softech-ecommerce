@@ -28,6 +28,7 @@ class FacturaController extends Controller
 
         // Obtener el número de resolución y el NIT de la empresa
         $numRes = Resolucion::value('numero_resolucion');
+        $numCon = Resolucion::Value('consecutivo_venta');
         $nit = Empresa::value('nit_empresa');
 
         // Información del usuario autenticado
@@ -69,6 +70,14 @@ class FacturaController extends Controller
         $carrito = session()->get('cart');
         $cliente = User::find($idCli); 
         $empresa = Empresa::first();
+        
+        $cantidad = 0;
+        foreach ($carrito as $producto) {
+            $cantidad += $producto['stock'];
+        }
+
+        $consecutivo = Documento::count();
+        $consecutivo += 1;
 
         // Generar el PDF con los datos de la factura
         $pdf = PDF::loadView('payment.factura', [
@@ -76,10 +85,14 @@ class FacturaController extends Controller
             'cliente' => $cliente, 
             'carrito' => $carrito, 
             'empresa' => $empresa,
+            'cantidad' => $cantidad,
+            'neto' => $totNet,
+            'consecutivo' => $consecutivo,
+            'maxConsecutivo' => $numCon,
         ]);
     
         // Descargar el PDF directamente
-        return $pdf->download('factura_' . $numFac . '.pdf');
+        return $pdf->stream('factura_' . $numFac . '.pdf');
     }
 
 
