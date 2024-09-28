@@ -67,4 +67,6 @@ Route::group(['prefix' => 'cart'], function () {
 
 Route::get('/shop', [SearchController::class, 'index']);
 
-Route::get('/search', [SearchController::class, 'search']);
+Route::get('/search', [SearchController::class, 'search'])->name('search');
+
+Route::get('/category/{categoryId}', [SearchController::class, 'filterByCategory'])->name('filterByCategory');

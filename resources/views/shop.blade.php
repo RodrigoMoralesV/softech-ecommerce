@@ -27,58 +27,54 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
+                     
 
                     <!-- Shop Sidebar -->
-                    <div class="shop_sidebar">
-                        <div class="sidebar_section">
-                            <div class="sidebar_title">Categories</div>
-                            <ul class="sidebar_categories">
-                                <li><a href="#">Computers & Laptops</a></li>
-                                <li><a href="#">Cameras & Photos</a></li>
-                                <li><a href="#">Hardware</a></li>
-                                <li><a href="#">Smartphones & Tablets</a></li>
-                                <li><a href="#">TV & Audio</a></li>
-                                <li><a href="#">Gadgets</a></li>
-                                <li><a href="#">Car Electronics</a></li>
-                                <li><a href="#">Video Games & Consoles</a></li>
-                                <li><a href="#">Accessories</a></li>
-                            </ul>
-                        </div>
-                        <div class="sidebar_section filter_by_section">
-                            <div class="sidebar_title">Filter By</div>
-                            <div class="sidebar_subtitle">Price</div>
+                <div class="shop_sidebar">
+                    <div class="sidebar_section">
+                        <div class="sidebar_title">Categoría</div>
+                        <ul class="sidebar_categories">
+                            @if($categories->isNotEmpty())
+                                @foreach($categories as $category)
+                                    <li>
+                                        <a href="{{ route('filterByCategory', $category->id_categoria) }}?searchBar={{ $search }}" class="font-weight-bold text-primary">
+                                            {{ $category->nombre_categoria }}
+                                            <span class="badge badge-primary ml-2">{{ $products->where('categoria_id', $category->id_categoria)->count() }}</span>
+                                        </a>
+                                    </li>
+                                @endforeach
+                            @else
+                                <li>No se encontraron categorías</li>
+                            @endif
+                        </ul>
+                    </div>
+<!-- Botón Regresar -->
+<button onclick="history.back()" class="btn btn-primary">
+                    <i class="fa fa-arrow-left"></i> Regresar
+                </button>
+
+
+                    <div class="sidebar_section filter_by_section">
+                            <div class="sidebar_title">Filtrar Por</div>
+                            <div class="sidebar_subtitle">Precio</div>
                             <div class="filter_price">
                                 <div id="slider-range" class="slider_range"></div>
-                                <p>Range: </p>
+                                <p>Rango: </p>
                                 <p><input type="text" id="amount" class="amount" readonly
                                         style="border:0; font-weight:bold;"></p>
+
+
+
+                                <form id="price-filter-form" method="GET" action="{{ route('search') }}">
+                                    <input type="hidden" name="min_price" id="min_price">
+                                    <input type="hidden" name="max_price" id="max_price">
+                                    <input type="hidden" name="searchBar" value="{{ request('searchBar') }}">
+                                    <button type="submit" class="btn btn-primary">Aplicar filtro</button>
+                                </form>
                             </div>
                         </div>
-                        <div class="sidebar_section">
-                            <div class="sidebar_subtitle color_subtitle">Color</div>
-                            <ul class="colors_list">
-                                <li class="color"><a href="#" style="background: #b19c83;"></a></li>
-                                <li class="color"><a href="#" style="background: #000000;"></a></li>
-                                <li class="color"><a href="#" style="background: #999999;"></a></li>
-                                <li class="color"><a href="#" style="background: #0e8ce4;"></a></li>
-                                <li class="color"><a href="#" style="background: #df3b3b;"></a></li>
-                                <li class="color"><a href="#"
-                                        style="background: #ffffff; border: solid 1px #e1e1e1;"></a></li>
-                            </ul>
-                        </div>
-                        <div class="sidebar_section">
-                            <div class="sidebar_subtitle brands_subtitle">Brands</div>
-                            <ul class="brands_list">
-                                <li class="brand"><a href="#">Apple</a></li>
-                                <li class="brand"><a href="#">Beoplay</a></li>
-                                <li class="brand"><a href="#">Google</a></li>
-                                <li class="brand"><a href="#">Meizu</a></li>
-                                <li class="brand"><a href="#">OnePlus</a></li>
-                                <li class="brand"><a href="#">Samsung</a></li>
-                                <li class="brand"><a href="#">Sony</a></li>
-                                <li class="brand"><a href="#">Xiaomi</a></li>
-                            </ul>
-                        </div>
+                        
+                       
                     </div>
 
                 </div>
@@ -91,22 +87,7 @@
                         <div class="shop_bar clearfix">
                             <div class="shop_product_count"><span>{{ count($products) }}</span> Productos
                                 encontrados</div>
-                            <div class="shop_sorting">
-                                <span>Sort by:</span>
-                                <ul>
-                                    <li>
-                                        <span class="sorting_text">highest rated<i class="fas fa-chevron-down"></span></i>
-                                        <ul>
-                                            <li class="shop_sorting_button"
-                                                data-isotope-option='{ "sortBy": "original-order" }'>highest rated</li>
-                                            <li class="shop_sorting_button" data-isotope-option='{ "sortBy": "name" }'>name
-                                            </li>
-                                            <li class="shop_sorting_button"data-isotope-option='{ "sortBy": "price" }'>price
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
+                           
                         </div>
 
                         <div class="product_grid">
