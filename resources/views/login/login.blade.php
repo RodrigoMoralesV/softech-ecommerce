@@ -1,6 +1,6 @@
 @extends('layouts.blank')
 
-@section('title', 'Inicar sesión')
+@section('title', 'Iniciar sesión')
 
 @section('content')
 

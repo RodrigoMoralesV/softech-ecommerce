@@ -25,7 +25,7 @@
                           method: "POST",
                           headers: {
                             "Content-Type": "application/json",
-                            "Authorization": `Bearer A21AALVNyfFl2og6jUhzhCZAz7KL1-Zk7ghEtwMobOHotUGnvmeK6rD_I8_qlTbOdy7soDGJmYt7JR1CJ7J1JISdZVpw-MzKw`
+                            "Authorization": `Bearer A21AAJVbf01iWN5vXBCA-OwxlZSXVTytFrYMUxJqwk6FCCpkC2_MJFMILQX0oSdR9tXZ9qX1I88rpYerDKn4CfgymFvQZSUAQ`
                           },
                           body: JSON.stringify({
                             "intent": "CAPTURE",
@@ -52,7 +52,7 @@
                           method: "POST",
                           headers: {
                             "Content-Type": "application/json",
-                            "Authorization": `Bearer A21AALVNyfFl2og6jUhzhCZAz7KL1-Zk7ghEtwMobOHotUGnvmeK6rD_I8_qlTbOdy7soDGJmYt7JR1CJ7J1JISdZVpw-MzKw`
+                            "Authorization": `Bearer A21AAJVbf01iWN5vXBCA-OwxlZSXVTytFrYMUxJqwk6FCCpkC2_MJFMILQX0oSdR9tXZ9qX1I88rpYerDKn4CfgymFvQZSUAQ`
                           }
                         })
 

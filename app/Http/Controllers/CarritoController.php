@@ -113,7 +113,7 @@ class CarritoController extends Controller
     // Eliminar todos los productos agregados al carrito
     public function removeAllFromCart(Request $request)
     {
-        $request->session()->flush();
+        $request->session()->forget('cart');
 
         return back();
     }

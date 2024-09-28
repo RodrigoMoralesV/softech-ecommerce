@@ -3,14 +3,18 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use App\Mail\FacturaMail;
 use App\Models\Documento;
 use App\Models\Empresa;
 use App\Models\Resolucion;
 use App\Models\Transaccion;
+use App\Models\User;
 use Auth;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Str;
+use PDF;
 
 class FacturaController extends Controller
 {
@@ -26,6 +30,7 @@ class FacturaController extends Controller
 
         // Obtener el número de resolución y el NIT de la empresa
         $numRes = Resolucion::value('numero_resolucion');
+        $numCon = Resolucion::Value('consecutivo_venta');
         $nit = Empresa::value('nit_empresa');
 
         // Información del usuario autenticado
@@ -63,9 +68,43 @@ class FacturaController extends Controller
         $documento->estado = 1;
         $documento->save();
 
-        // return redirect();
-    }
+        // Obtener los datos del cliente
+        $carrito = session()->get('cart');
+        $cliente = User::find($idCli); 
+        $empresa = Empresa::first();
+        
+        $cantidad = 0;
+        foreach ($carrito as $producto) {
+            $cantidad += $producto['stock'];
+        }
 
+        $consecutivo = Documento::count();
+        $consecutivo += 1;
+
+        // Generar el PDF con los datos de la factura
+        $pdf = PDF::loadView('payment.factura', [
+            'documento' => $documento, 
+            'cliente' => $cliente, 
+            'carrito' => $carrito, 
+            'empresa' => $empresa,
+            'cantidad' => $cantidad,
+            'neto' => $totNet,
+            'consecutivo' => $consecutivo,
+            'maxConsecutivo' => $numCon,
+        ]);
+    
+        // Ver el PDF directamente
+        // return $pdf->stream('factura_' . $numFac . '.pdf');
+
+        $messageData = [
+            'numFac' => $numFac,
+            'nombreCliente' => $cliente->nombre,
+        ];
+
+        Mail::to($cliente->email)->send(new FacturaMail($messageData, $pdf, $numFac));
+
+        return redirect('index');
+    }
 
     public function generarCUFE($numFac, $fecFac, $horFac, $valFac, $valTot, $nitEmp, $numIde)
     {
