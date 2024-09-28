@@ -21,6 +21,8 @@ class CarritoController extends Controller
         // Get the cart from the session
         $cart = $request->session()->get('cart', []);
 
+        $total_neto = 0;
+        $iva = 0;
         $total = 0;
         $cartItems = [];
         foreach ($cart as $productId => $item) {
@@ -40,11 +42,21 @@ class CarritoController extends Controller
 
                 $subtotal = $product->valor_unitario * $item['stock'];
                 $total += $subtotal;
+
+                $total_neto = $total;
+                $iva = $total * 0.19; 
             }
         }
+        $total = $total * 1.19;
+
+        session([
+            'total_neto' => $total_neto,
+            'iva' => $iva,
+            'total' => $total,
+        ]);
 
         // Pass $cartItems and $total to the view
-        return view('cart.cart', compact('cartItems', 'total'));
+        return view('cart.cart', compact('cartItems', 'total', 'iva', 'total_neto'));
     }
 
     public function addToCart(Request $request, $productId)

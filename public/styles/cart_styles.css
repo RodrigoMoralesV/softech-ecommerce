@@ -1399,6 +1399,12 @@ select option {
     line-height: 60px;
 }
 
+.order_total_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .cart_buttons {
     margin-top: 60px;
     text-align: right;

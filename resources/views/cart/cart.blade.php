@@ -26,8 +26,18 @@
                         <!-- Order Total -->
                         <div class="order_total">
                             <div class="order_total_content text-md-right">
-                                <div class="order_total_title">Orden Total:</div>
-                                <div class="order_total_amount">{{ $total ?? 0 }}</div>
+                                <span>
+                                    <div class="order_total_title">Total neto:</div>
+                                    <div class="order_total_amount">{{ $total_neto ?? 0 }}</div>
+                                </span>
+                                <span>
+                                    <div class="order_total_title">IVA:</div>
+                                    <div class="order_total_amount">{{ $iva ?? 0 }}</div>
+                                </span>
+                                <span>
+                                    <div class="order_total_title">Total a pagar:</div>
+                                    <div class="order_total_amount">{{ $total ?? 0 }}</div>
+                                </span>
                             </div>
                         </div>
 
