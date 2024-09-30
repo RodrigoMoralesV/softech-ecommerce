@@ -75,3 +75,6 @@ Route::get('/search', [SearchController::class, 'search']);
 Route::get('/factura', function() {
     return view('payment.factura');
 });
+
+Route::post('/paypal/create-order', [PaymentController::class, 'createOrder'])->name('paypal.createOrder');
+Route::post('/paypal/capture-order/{orderId}', [PaymentController::class, 'captureOrder'])->name('paypal.captureOrder');

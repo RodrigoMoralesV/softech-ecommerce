@@ -92,7 +92,7 @@ class FacturaController extends Controller
             'consecutivo' => $consecutivo,
             'maxConsecutivo' => $numCon,
         ]);
-    
+        
         // Ver el PDF directamente
         // return $pdf->stream('factura_' . $numFac . '.pdf');
 
@@ -102,6 +102,8 @@ class FacturaController extends Controller
         ];
 
         Mail::to($cliente->email)->send(new FacturaMail($messageData, $pdf, $numFac));
+
+        session()->forget('cart');
 
         return redirect('index');
     }
