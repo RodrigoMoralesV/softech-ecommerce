@@ -36,7 +36,7 @@ Route::get('/productos/categoria/{id_categoria}', function ($id_categoria) {
 
 Route::get('/productos/{id}', function ($id) {
     $producto = Producto::find($id);
-    return $producto;
+    return response()->json($producto);
 });
 
 Route::get('/identificaciones', function () {
