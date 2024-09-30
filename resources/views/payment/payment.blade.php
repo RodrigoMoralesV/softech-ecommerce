@@ -3,7 +3,7 @@
 @section('title', 'Realiza tu pago')
 
 @section('css')
-<link rel="stylesheet" type="text/css" href="{{ url('styles/payment_styles.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url('styles/payment_style.css') }}">
 <script src="https://www.paypal.com/sdk/js?client-id={{config('app.paypal.id')}}&currency=USD"></script>
 @endsection
 
@@ -18,56 +18,39 @@
               <div class="contact_form_title d-flex justify-content-center">Realiza tu Pago</div>
               <form>
                 <div id="paypal-buttons"></div>
-                  <script>
-                    paypal.Buttons({
-                      async createOrder() {
-                        const response = await fetch("https://api-m.sandbox.paypal.com/v2/checkout/orders", {
-                          method: "POST",
-                          headers: {
-                            "Content-Type": "application/json",
-                            "Authorization": `Bearer A21AAJVbf01iWN5vXBCA-OwxlZSXVTytFrYMUxJqwk6FCCpkC2_MJFMILQX0oSdR9tXZ9qX1I88rpYerDKn4CfgymFvQZSUAQ`
-                          },
-                          body: JSON.stringify({
-                            "intent": "CAPTURE",
-                            "purchase_units": [
-                              {
-                                "reference_id": "default",
-                                "amount": {
-                                  "currency_code": "USD",
-                                  "value": "{{ $totalUSD }}"
-                                },
-                              }
-                            ]
-                          }),
-                        });
-
-                        const data = await response.json();
-                        console.log(data.id)
-                        return data.id;
-                      },
-                      async onApprove(data) {
-                        // Capture the funds from the transaction.
-                        console.log(data)
-                        const response = await fetch(`https://api-m.sandbox.paypal.com/v2/checkout/orders/${data.orderID}/capture`, {
-                          method: "POST",
-                          headers: {
-                            "Content-Type": "application/json",
-                            "Authorization": `Bearer A21AAJVbf01iWN5vXBCA-OwxlZSXVTytFrYMUxJqwk6FCCpkC2_MJFMILQX0oSdR9tXZ9qX1I88rpYerDKn4CfgymFvQZSUAQ`
-                          }
+                <script>
+                  paypal.Buttons({
+                    async createOrder() {
+                      const response = await fetch("{{ route('paypal.createOrder') }}", {
+                        method: "POST",
+                        headers: {
+                          "Content-Type": "application/json",
+                          "X-CSRF-TOKEN": "{{ csrf_token() }}",
+                        },
+                        body: JSON.stringify({
+                          totalUSD: "{{ $totalUSD }}"
                         })
+                      });
 
-                        const details = await response.json();
+                      const data = await response.json();
+                      return data.id;
+                    },
+                    async onApprove(data) {
+                      const response = await fetch(`{{ route('paypal.captureOrder', ['orderId' => '${data.orderID}']) }}`, {
+                        method: "POST",
+                        headers: {
+                          "Content-Type": "application/json",
+                          "X-CSRF-TOKEN": "{{ csrf_token() }}",
+                        }
+                      });
 
-                        // Show success message to buyer
-                        alert(`Transaction completed by ${details.payer.name.given_name}`);
-
-                        console.log(details)
-
-                        window.location.href = "{{ route('factura.create') }}"
-                      }
-                    }).render('#paypal-buttons');
-                  </script>
-                </div>
+                      const details = await response.json();
+                      alert(`Transaction completed by ${details.payer.name.given_name}`);
+                          
+                      window.location.href = "{{ route('factura.create') }}";
+                    }
+                  }).render('#paypal-buttons');
+                </script>
               </form>
             </div>
           </div>
