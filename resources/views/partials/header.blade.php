@@ -16,7 +16,11 @@
                 <!-- Logo -->
                 <div class="col-lg-2 col-sm-3 col-3 order-1">
                     <div class="logo_container">
-                        <div class="logo"><a href="{{ url('index') }}">Softech</a></div>
+                        <div class="logo">
+                            <a href="{{ url('index') }}">
+                                <img src="{{ url('images/logo.svg') }}" width="100px">
+                            </a>
+                        </div>
                     </div>
                 </div>
 

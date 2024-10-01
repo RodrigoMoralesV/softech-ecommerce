@@ -105,7 +105,7 @@ class FacturaController extends Controller
 
         session()->forget('cart');
 
-        return redirect('index');
+        return redirect()->route('thank.you')->with('factura', $numFac);
     }
 
     public function generarCUFE($numFac, $fecFac, $horFac, $valFac, $valTot, $nitEmp, $numIde)
@@ -113,5 +113,18 @@ class FacturaController extends Controller
         $ClTec = '693ff6f2a553c3646a063436fd4dd9ded0311471';
 
         return hash('sha384', $numFac . $fecFac . $horFac . $valFac . 01 . '0.19' . 04 . '0.0' . 03 . '0.0' . $valTot . $nitEmp . $numIde . $ClTec . 2);
+    }
+
+    public function thankYouPage()
+    {
+        $numeroFactura = session('factura');
+
+        return view('payment.thankYou', ['numeroFactura' => $numeroFactura]);
+    }
+
+    public function orderErrorPage()
+    {
+        $error = session('error');
+        return view('payment.orderError', ['error' => $error]);
     }
 }

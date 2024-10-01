@@ -7,7 +7,11 @@
     <!-- Header -->
     <div class="header_main">
         <div class="logo_container">
-            <div class="logo"><a href="{{ url('index') }}">Softech</a></div>
+            <div class="logo">
+                <a href="{{ url('index') }}">
+                    <img src="{{ url('images/logo.svg') }}" width="100px">
+                </a>
+            </div>
         </div>
     </div>
 

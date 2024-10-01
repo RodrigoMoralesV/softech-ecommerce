@@ -5,6 +5,7 @@ use App\Http\Controllers\CarritoController;
 use App\Http\Controllers\FacturaController;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\ProductoController;
 use App\Http\Controllers\RegistroController;
 use App\Http\Controllers\ResetPasswordController;
@@ -66,7 +67,17 @@ Route::group(['prefix' => 'cart'], function () {
     Route::get('/pay/{total}', [CarritoController::class, 'payment'])->name('cart.payment');
 });
 
+// Crea la orden por paypal para que el usuario pueda pagar
+Route::get('/get-paypal-token', [PaymentController::class, 'getPayPalToken']);
+
+// Genera la factura y la envia por correo al cliente
 Route::get('/crear-factura', [FacturaController::class, 'crearFactura'])->name('factura.create');
+
+// Vista de confirmacion de compra
+Route::get('/gracias-por-su-compra', [FacturaController::class, 'thankYouPage'])->name('thank.you');
+
+// Vista de error de compra
+Route::get('/error-compra', [FacturaController::class, 'orderErrorPage'])->name('error.compra');
 
 Route::get('/shop', [SearchController::class, 'index']);
 
@@ -75,6 +86,3 @@ Route::get('/search', [SearchController::class, 'search']);
 Route::get('/factura', function() {
     return view('payment.factura');
 });
-
-Route::post('/paypal/create-order', [PaymentController::class, 'createOrder'])->name('paypal.createOrder');
-Route::post('/paypal/capture-order/{orderId}', [PaymentController::class, 'captureOrder'])->name('paypal.captureOrder');
