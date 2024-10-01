@@ -30,7 +30,7 @@ Route::resource('index', IndexController::class);
 
 Route::resource('producto', ProductoController::class);
 
-Route::get('/login', [LoginController::class, 'login'])->name('login.login');
+Route::get('/login', [LoginController::class, 'login'])->name('login');
 
 Route::post('/logout', [UsuarioController::class, 'logout'])->name('logout');
 

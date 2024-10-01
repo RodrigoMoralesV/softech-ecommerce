@@ -16,7 +16,7 @@ class VerifyEmailController extends Controller
     {
         $request->fulfill();
 
-        return redirect()->route('login.login');
+        return redirect()->route('login');
     }
 
     public function verifyHandler(Request $request)
