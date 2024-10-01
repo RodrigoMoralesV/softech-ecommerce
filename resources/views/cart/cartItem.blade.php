@@ -25,5 +25,5 @@
         <span class="cart_close"><a href="{{ route('cart.remove', $cartItem['id_producto']) }}">x</a></span>
     </li>
 @empty
-    <li class="h1 text-center">No añadido productos al carrito</li>
+    <li class="h1 text-center">No ha añadido productos al carrito</li>
 @endforelse
