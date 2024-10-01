@@ -191,4 +191,15 @@
     <script src="{{ url('plugins/jquery-ui-1.12.1.custom/jquery-ui.js') }}"></script>
     <script src="{{ url('plugins/parallax-js-master/parallax.min.js') }}"></script>
     <script src="{{ url('js/shop_custom.js') }}"></script>
+    <script>
+        $(document).ready(function() {
+            // Inicializar el slider con los valores de la URL si están presentes
+            var urlParams = new URLSearchParams(window.location.search);
+            var minPrice = urlParams.get('min_price') || 100000;
+            var maxPrice = urlParams.get('max_price') || 10000000;
+
+            $("#slider-range").slider("option", "values", [minPrice, maxPrice]);
+            $("#amount").val("$" + minPrice + " - $" + maxPrice);
+        });
+    </script>
 @endsection

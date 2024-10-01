@@ -103,7 +103,7 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="popular_categories_content">
-                        <div class="popular_categories_title">Categorías populares</div>
+                        <div class="popular_categories_title">Nuestras Categorías</div>
                         <div class="popular_categories_slider_nav">
                             <div class="popular_categories_prev popular_categories_nav"><i class="fas fa-angle-left ml-auto"></i></div>
                             <div class="popular_categories_next popular_categories_nav"><i class="fas fa-angle-right ml-auto"></i></div>

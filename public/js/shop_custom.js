@@ -276,37 +276,6 @@ $(document).ready(function () {
 
 	*/
 
-	function initIsotope() {
-		var sortingButtons = $('.shop_sorting_button');
-
-		$('.product_grid').isotope({
-			itemSelector: '.product_item',
-			getSortData: {
-				price: function (itemElement) {
-					var priceEle = $(itemElement).find('.product_price').text().replace('$', '');
-					return parseFloat(priceEle);
-				},
-				name: '.product_name div a'
-			},
-			animationOptions: {
-				duration: 750,
-				easing: 'linear',
-				queue: false
-			}
-		});
-
-		// Sort based on the value from the sorting_type dropdown
-		sortingButtons.each(function () {
-			$(this).on('click', function () {
-				$('.sorting_text').text($(this).text());
-				var option = $(this).attr('data-isotope-option');
-				option = JSON.parse(option);
-				$('.product_grid').isotope(option);
-			});
-		});
-
-	}
-
 	/* 
 
  8. Init Price Slider
@@ -335,7 +304,7 @@ $(document).ready(function () {
 				// Actualizar la URL con los nuevos parámetros de precio
 				updateURLWithPrice(priceMin, priceMax);
 
-				// Filtrar los productos en el frontend
+				// Filtrar los productos usando Isotope
 				filterProductsByPrice(priceMin, priceMax);
 			});
 		}
@@ -349,30 +318,34 @@ $(document).ready(function () {
 	}
 
 	function filterProductsByPrice(min, max) {
-		$('.product_item').each(function () {
-			var price = parseFloat($(this).find('.product_price').text().replace('$', '').trim());
-			if (price >= min && price <= max) {
-				$(this).show();
-			} else {
-				$(this).hide();
+		$('.product_grid').isotope({
+			filter: function () {
+				var price = parseFloat($(this).find('.product_price').text().replace('$', '').trim());
+				return (price >= min) && (price <= max);
 			}
 		});
 	}
 
-	/* 
-
-9. Init Favorites
-
-*/
-
-	function initFavs() {
-		// Handle Favorites
-		var items = document.getElementsByClassName('product_fav');
-		for (var x = 0; x < items.length; x++) {
-			var item = items[x];
-			item.addEventListener('click', function (fn) {
-				fn.target.classList.toggle('active');
-			});
-		}
+	function initIsotope() {
+		$('.product_grid').isotope({
+			itemSelector: '.product_item',
+			layoutMode: 'fitRows',
+			getSortData: {
+				price: function (itemElement) {
+					var priceEle = $(itemElement).find('.product_price').text().replace('$', '');
+					return parseFloat(priceEle);
+				},
+				name: '.product_name div a'
+			},
+			animationOptions: {
+				duration: 750,
+				easing: 'linear',
+				queue: false
+			}
+		});
 	}
+});
+$(document).ready(function () {
+	initIsotope();
+	initPriceSlider();
 });
