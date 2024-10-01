@@ -108,7 +108,7 @@
                             <div class="popular_categories_prev popular_categories_nav"><i class="fas fa-angle-left ml-auto"></i></div>
                             <div class="popular_categories_next popular_categories_nav"><i class="fas fa-angle-right ml-auto"></i></div>
                         </div>
-                        <div class="popular_categories_link"><a href="#">Catálogo completo</a></div>
+                        <div class="popular_categories_link"><a href="{{ route('shop') }}">Catálogo completo</a></div>
                     </div>
                 </div>
 

@@ -69,9 +69,9 @@ Route::group(['prefix' => 'cart'], function () {
     Route::get('/removeAllFromcart', [CarritoController::class, 'removeAllFromCart'])->name('cart.removeAll');
 });
 
-Route::get('/shop', [SearchController::class, 'index']);
+Route::get('/shop', [SearchController::class, 'index'])->name('shop');
 
-Route::get('/search', [SearchController::class, 'search']);
+Route::get('/search', [SearchController::class, 'search'])->name('search');
 
 Route::get('/factura', function() {
     return view('payment.factura');
