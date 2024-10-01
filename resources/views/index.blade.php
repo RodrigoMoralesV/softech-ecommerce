@@ -172,51 +172,6 @@
         </div>
     </div>
 
-    <!-- Brands -->
-
-    <div class="brands">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="brands_slider_container">
-                        <!-- Brands Slider -->
-                        <div class="owl-carousel owl-theme brands_slider">
-                            <div class="owl-item">
-                                <div class="brands_item d-flex flex-column justify-content-center"><img src="images/brands_1.jpg" alt=""></div>
-                            </div>
-                            <div class="owl-item">
-                                <div class="brands_item d-flex flex-column justify-content-center"><img src="images/brands_2.jpg" alt=""></div>
-                            </div>
-                            <div class="owl-item">
-                                <div class="brands_item d-flex flex-column justify-content-center"><img src="images/brands_3.jpg" alt=""></div>
-                            </div>
-                            <div class="owl-item">
-                                <div class="brands_item d-flex flex-column justify-content-center"><img src="images/brands_4.jpg" alt=""></div>
-                            </div>
-                            <div class="owl-item">
-                                <div class="brands_item d-flex flex-column justify-content-center"><img src="images/brands_5.jpg" alt=""></div>
-                            </div>
-                            <div class="owl-item">
-                                <div class="brands_item d-flex flex-column justify-content-center"><img src="images/brands_6.jpg" alt=""></div>
-                            </div>
-                            <div class="owl-item">
-                                <div class="brands_item d-flex flex-column justify-content-center"><img src="images/brands_7.jpg" alt=""></div>
-                            </div>
-                            <div class="owl-item">
-                                <div class="brands_item d-flex flex-column justify-content-center"><img src="images/brands_8.jpg" alt=""></div>
-                            </div>
-                        </div>
-
-                        <!-- Brands Slider Navigation -->
-                        <div class="brands_nav brands_prev"><i class="fas fa-chevron-left"></i></div>
-                        <div class="brands_nav brands_next"><i class="fas fa-chevron-right"></i></div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="{{ asset('styles/styles.css') }}">
