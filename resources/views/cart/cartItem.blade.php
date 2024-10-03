@@ -13,12 +13,12 @@
             </div>
             <div class="cart_item_price cart_info_col">
                 <div class="cart_item_title">Precio</div>
-                <div class="cart_item_text">{{ $cartItem['valor_unitario'] }}
+                <div class="cart_item_text">{{ number_format($cartItem['valor_unitario'], 0, ',', '.') }}
                 </div>
             </div>
             <div class="cart_item_total cart_info_col">
                 <div class="cart_item_title">Total</div>
-                <div class="cart_item_text">{{ $cartItem['valor_total'] }}
+                <div class="cart_item_text">{{ number_format($cartItem['valor_total'], 0, ',', '.') }}
                 </div>
             </div>
         </div>
