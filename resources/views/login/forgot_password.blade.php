@@ -25,7 +25,7 @@
                                 <label class="container_input mb-4">
                                     <input type="email" name="email" placeholder="" class="input_field2" required
                                         autofocus>
-                                    <span class="container_input_title">Your email</span>
+                                    <span class="container_input_title">Email</span>
                                 </label>
                             </div>
                             <div class="additional-links d-flex justify-content-center">
