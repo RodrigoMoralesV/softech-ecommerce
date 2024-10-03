@@ -28,15 +28,15 @@
                             <div class="order_total_content text-md-right">
                                 <span>
                                     <div class="order_total_title">Total neto:</div>
-                                    <div class="order_total_amount">{{ $total_neto ?? 0 }}</div>
+                                    <div class="order_total_amount">{{ number_format($total_neto ?? 0, 2, ',', '.') }}</div>
                                 </span>
                                 <span>
                                     <div class="order_total_title">IVA:</div>
-                                    <div class="order_total_amount">{{ $iva ?? 0 }}</div>
+                                    <div class="order_total_amount">{{ number_format($iva ?? 0, 2, ',', '.') }}</div>
                                 </span>
                                 <span>
                                     <div class="order_total_title">Total a pagar:</div>
-                                    <div class="order_total_amount">{{ $total ?? 0 }}</div>
+                                    <div class="order_total_amount">{{ number_format($total ?? 0, 2, ',', '.') }}</div>
                                 </span>
                             </div>
                         </div>

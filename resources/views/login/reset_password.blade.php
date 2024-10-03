@@ -25,19 +25,19 @@
                                 <label class="container_input mb-4">
                                     <input type="email" name="email" placeholder="" class="input_field2" required
                                         autofocus>
-                                    <span class="container_input_title">Your email</span>
+                                    <span class="container_input_title">Email</span>
                                 </label>
                                 @error('clave_cliente')
                                     <p>{{ $message }}</p>
                                 @enderror
                                 <label class="container_input">
                                     <input type="password" name="password" placeholder="" class="input_field2" required>
-                                    <span class="container_input_title">Your password</span>
+                                    <span class="container_input_title">Contraseña</span>
                                 </label>
                                 <label class="container_input">
                                     <input type="password" name="password_confirmation" placeholder="" class="input_field2"
                                         required>
-                                    <span class="container_input_title">Your password confirm</span>
+                                    <span class="container_input_title">Confirmar</span> Contraseña
                                 </label>
                             </div>
                             <div class="additional-links d-flex justify-content-center">

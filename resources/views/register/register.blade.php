@@ -14,33 +14,33 @@
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
                     <div class="contact_form_container">
-                        <div class="contact_form_title d-flex justify-content-center">Sign Up</div>
+                        <div class="contact_form_title d-flex justify-content-center">Crea tu Cuenta </div>
                         <form action="{{ route('registro.store') }}" class="form" id="contact_form" method="POST">
                             @csrf
                             <!-- Nombre -->
                             <label class="container_input mb-4">
                                 <input type="text" name="nombre_cliente" placeholder="" class="input_field2" required
                                     autofocus>
-                                <span class="container_input_title">Your first name</span>
+                                <span class="container_input_title">Nombre</span>
                             </label>
                             <!-- Apellido -->
                             <label class="container_input mb-4">
                                 <input type="text" name="apellido_cliente" placeholder="" class="input_field2" required>
-                                <span class="container_input_title">Your last name</span>
+                                <span class="container_input_title">Apellido</span>
                             </label>
                             <!-- Correo -->
                             <label class="container_input mb-4">
                                 <input type="email" name="email" placeholder="" class="input_field2" required>
-                                <span class="container_input_title">Your email</span>
+                                <span class="container_input_title">Email</span>
                             </label>
                             <!-- Telefono -->
                             <label class="container_input mb-4">
                                 <input type="text" name="telefono_cliente" placeholder="" class="input_field2" required>
-                                <span class="container_input_title">Your phone</span>
+                                <span class="container_input_title">Telefono</span>
                             </label>
                             <!-- Fecha de nacimiento -->
                             <label class="date-input-container mb-4">
-                                <span class="date-input-label">Your birth date</span>
+                                <span class="date-input-label">Fecha de nacimiento</span>
                                 <input type="date" name="fecha_nacimiento_cliente" required class="styled-date-input" />
                             </label>
 
@@ -49,7 +49,7 @@
                                 <!-- Tipo identificacion -->
                                 <div class="select-box">
                                     <select name="tipo_identificacion_id">
-                                        <option hidden>Your ID type</option>
+                                        <option hidden>Tipo de documento</option>
                                         @foreach ($tipo_identificacion as $tipo_id)
                                             <option value="{{ $tipo_id->id_tipo_identificacion }}">
                                                 {{ $tipo_id->descripcion_tipo_identificacion }}
@@ -68,7 +68,7 @@
                                 <!-- Departamento -->
                                 <div class="select-box">
                                     <select id="departamento" name="departamento_id">
-                                        <option value="" hidden>Select department</option>
+                                        <option value="" hidden>Departamento</option>
                                         @foreach ($departamentos as $departamento)
                                             <option value="{{ $departamento->id_departamento }}">
                                                 {{ $departamento->nombre_departamento }}
@@ -79,7 +79,7 @@
                                 <!-- Ciudad -->
                                 <div class="select-box">
                                     <select name="ciudad_id" id="ciudad" disabled>
-                                        <option value="" hidden>Select city</option>
+                                        <option value="" hidden>Ciudad
                                     </select>
                                 </div>
                             </div>
@@ -89,19 +89,19 @@
                             <label class="container_input mt-4 mb-4">
                                 <input type="text" name="direccion_entrega_cliente" placeholder="" class="input_field2"
                                     required>
-                                <span class="container_input_title">Your address</span>
+                                <span class="container_input_title">Direccion</span>
                             </label>
                             <!-- Contraseña -->
                             <label class="container_input mb-4">
                                 <input type="password" name="password" placeholder="" class="input_field2" required>
-                                <span class="container_input_title">Your password</span>
+                                <span class="container_input_title">Contraseña</span>
                             </label>
                             <!-- Confirmar Contraseña -->
                             <label class="container_input mb-4">
                                 <input type="password" placeholder="" class="input_field2">
-                                <span class="container_input_title">Confirm password</span>
+                                <span class="container_input_title">Confirma tu contraseña</span>
                             </label>
-                            <button type="submit" class="button contact_submit_button">Submit</button>
+                            <button type="submit" class="button contact_submit_button">Registrar</button>
                         </form>
                     </div>
                 </div>
